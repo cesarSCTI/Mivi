@@ -49,6 +49,8 @@
     "font_family2_google": "",
     "font_family3": "lato_n4",
     "font_family3_google": "Poppins",
+    "h6_font_size": 16,
+    "base_size": 16,
     "main_linklist": "main-menu",
     "menu_label_text": "#fff",
     "menu_label_new": "#ff7143",
