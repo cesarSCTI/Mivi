@@ -60,7 +60,7 @@
           "settings": {
             "icon": "shopify://shop_images/icono-formulas_MIVI.png",
             "text": "Fórmulas cuidadosamente desarrolladas para mejorar visiblemente la piel.",
-            "height_icon": 82
+            "height_icon": 114
           }
         },
         "feature_T9MnQm": {
@@ -99,7 +99,7 @@
         "image_bg": "shopify://shop_images/bg-porque_elegir_mivi.png",
         "bg_color": "#ffffff",
         "image": "shopify://shop_images/img-porque_elegir_mivi_medica_skin_care.png",
-        "height_icon": 500,
+        "height_image": 500,
         "heading": "¿Por qué elegir Mivi Medical Skincare?",
         "typeHeader": "h3"
       }
