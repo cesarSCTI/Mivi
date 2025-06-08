@@ -59,28 +59,32 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/icono-formulas_MIVI.png",
-            "text": "Fórmulas cuidadosamente desarrolladas para mejorar visiblemente la piel."
+            "text": "Fórmulas cuidadosamente desarrolladas para mejorar visiblemente la piel.",
+            "height_icon": 82
           }
         },
         "feature_T9MnQm": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/icono-tipos_de_piel_MIVI.png",
-            "text": "Aptos para todo tipo de piel, incluso las más sensibles."
+            "text": "Aptos para todo tipo de piel, incluso las más sensibles.",
+            "height_icon": 64
           }
         },
         "feature_NcPtxM": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/icono-texturas_MIVI.png",
-            "text": "Texturas ligeras, efectivas y sin fragancias agresivas."
+            "text": "Texturas ligeras, efectivas y sin fragancias agresivas.",
+            "height_icon": 64
           }
         },
         "feature_Vy4VNT": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/icono-usuarios_mejoras_MIVI.png",
-            "text": "Usuarios notan mejoras en pocas semanas. *Resultados pueden variar según el tipo de piel."
+            "text": "Usuarios notan mejoras en pocas semanas. *Resultados pueden variar según el tipo de piel.",
+            "height_icon": 64
           }
         }
       },
@@ -92,9 +96,12 @@
       ],
       "name": "Mivi Skincare - Lista con imagen",
       "settings": {
+        "image_bg": "shopify://shop_images/bg-porque_elegir_mivi.png",
         "bg_color": "#ffffff",
         "image": "shopify://shop_images/img-porque_elegir_mivi_medica_skin_care.png",
-        "heading": "¿Por qué elegir Mivi Medical Skincare?"
+        "height_icon": 500,
+        "heading": "¿Por qué elegir Mivi Medical Skincare?",
+        "typeHeader": "h3"
       }
     }
   },
