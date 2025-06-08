@@ -36,7 +36,9 @@
       "block_order": [
         "banner_tNceXa"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h2{background: #efe6dfab; padding: 10px 20px;}"
+      ],
       "name": "Grid banner",
       "settings": {
         "animation": "",
