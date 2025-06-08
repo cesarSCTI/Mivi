@@ -11,6 +11,9 @@
   "sections": {
     "product-grid": {
       "type": "collection-template-1",
+      "custom_css": [
+        "h1{padding: 40px 0px;}"
+      ],
       "settings": {
         "collection_width": "container",
         "collectionpage": "collection-3",
@@ -46,6 +49,7 @@
       "block_order": [
         "html_iaVmrY"
       ],
+      "custom_css": [],
       "name": "Custom HTML",
       "settings": {
         "animation": "",
