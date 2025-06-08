@@ -3,6 +3,13 @@
   width: 32px;
   height: auto;
 }
+{% if section.settings.image_bg != blank %}
+.mivi-skincare-section {
+  background-image: url('{{ section.settings.image_bg | image_url: width: 2000 }}');
+  background-size: cover;
+  background-position: center;
+}
+{% else %}
 {% endstylesheet %}
 
 <section class="mivi-skincare-section py-5" style="background-color: {{ section.settings.bg_color }};">
@@ -10,17 +17,17 @@
     <div class="row align-items-center">
       <!-- Imagen -->
       <div class="col-md-6 mb-4 mb-md-0 text-center">
-        {{ section.settings.image | image_url: width: 800 | image_tag: class: 'img-fluid rounded shadow' }}
+        {{ section.settings.image | image_url: width: 800 | image_tag: class: 'img-fluid' }}
       </div>
 
       <!-- Texto con íconos -->
       <div class="col-md-6">
-        <h4 class="font-weight-bold mb-4">{{ section.settings.heading }}</h4>
+        <{{section.settings.typeHeader}} class="font-weight-bold mb-4">{{ section.settings.heading }}</{{section.settings.typeHeader}}>
         <ul class="list-unstyled">
           {% for block in section.blocks %}
             <li class="mb-4 d-flex">
               {% if block.settings.icon %}
-                {{ block.settings.icon | image_url: width: 64 | image_tag: class: 'mr-3 icon' }}
+                {{ block.settings.icon | image_url: width: block.settings.height_icon | image_tag: class: 'mr-3 icon' }}
               {% endif %}
               <p class="mb-10">{{ block.settings.text }}</p>
             </li>
@@ -36,6 +43,11 @@
   "name": "Mivi Medical Skincare",
   "settings": [
     {
+      "type": "image_picker",
+      "id": "image_bg",
+      "label": "Imagen de fondo"
+    },
+    {
       "type": "color",
       "id": "bg_color",
       "label": "Color de fondo",
@@ -47,10 +59,43 @@
       "label": "Imagen principal"
     },
     {
+        "type": "range",
+        "id": "height_icon",
+        "label": "Altura de imagen",   
+        "default": 500,
+        "min": 0,      
+        "max": 1000,
+        "step": 100
+    },
+    {
       "type": "text",
       "id": "heading",
       "label": "Título principal",
       "default": "¿Por qué elegir Mivi Medical Skincare?"
+    },
+    {
+        "type": "select",
+        "id": "typeHeader",
+        "label": "Tipo de encabezado",
+        "default": "h3",
+        "options": [
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "h4",
+            "label": "H4"
+          },
+          {
+            "value": "h5",
+            "label": "H5"
+          }
+        ]
     }
   ],
   "blocks": [
@@ -68,6 +113,15 @@
           "id": "text",
           "label": "Texto",
           "default": "Texto de la característica"
+        },
+        {
+            "type": "range",
+            "id": "height_icon",
+            "label": "Altura del ícono (px)",   
+            "default": 64,
+            "min": 0,      
+            "max": 150,
+            "step": 2
         }
       ]
     }
