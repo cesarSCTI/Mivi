@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -7,7 +16,7 @@
           "type": "html",
           "settings": {
             "setwidthcontent": "container",
-            "content_html": "<div class=\"py-2\"><\/div>"
+            "content_html": "<div class=\"py-2\"></div>"
           }
         },
         "1586366347102": {
@@ -25,7 +34,7 @@
             "subtitle_color": "#6c757d",
             "button": "discover now",
             "link": "#",
-            "link_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0525\/4719\/0979\/files\/cosmetic.mp4?v=1609777426"
+            "link_video": "https://cdn.shopify.com/s/files/1/0525/4719/0979/files/cosmetic.mp4?v=1609777426"
           }
         },
         "1586366327246": {
@@ -91,11 +100,11 @@
       "settings": {
         "animation": "fade-up",
         "setwidth": "container",
-        "heading": "You may also like",
+        "heading": "Productos Relacionados",
         "heading_size": "h3",
-        "heading_align": "center",
-        "products_to_show": 4,
-        "columns_desktop": "3",
+        "heading_align": "left",
+        "products_to_show": 3,
+        "columns_desktop": "4",
         "columns_mobile": "6",
         "padding_top": 80,
         "padding_bottom": 32
