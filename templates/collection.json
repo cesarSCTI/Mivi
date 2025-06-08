@@ -30,9 +30,43 @@
         "style_color": "color_list",
         "style_size": "grid"
       }
+    },
+    "advanced_content_3xRLnG": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_iaVmrY": {
+          "type": "html",
+          "settings": {
+            "code": "<style>\n.shopify-section{\nbackground:#EFE6DF;\n}\n</style>",
+            "width": "100%",
+            "align": "auto"
+          }
+        }
+      },
+      "block_order": [
+        "html_iaVmrY"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#fefefe",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
+      }
     }
   },
   "order": [
-    "product-grid"
+    "product-grid",
+    "advanced_content_3xRLnG"
   ]
 }
