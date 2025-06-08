@@ -39,35 +39,37 @@
     "advanced-content-page-1": {
       "type": "advanced-content-page-1",
       "blocks": {
-        "1598176349095": {
-          "type": "html",
-          "settings": {
-            "code": "<div class=\"py-3 py-md-5 mt-5 pr-md-5\">\n<div class=\"subtop mb-3\">Easy and simple</div>\n<h2 class=\"mb-3\">Take a Look \nat Our Profile</h2>\n<div class=\"mb-5\">Apparently we had reached a great height in the atmosphere, for the sky was \na dead black and there a stars.</div>\n<a href=\"#\" class=\"btn btn-theme\">Get a Quote</a>\n</div>",
-            "width": "33%",
-            "align": "center"
-          }
-        },
         "1598192409949": {
           "type": "image",
           "settings": {
             "width": "33%",
-            "align": "auto",
+            "align": "center",
+            "image": "shopify://shop_images/img-porque_nace_mivi1.png",
             "image_link": ""
           }
         },
         "1598192428049": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"pl-md-5 py-5\">\n<h4 class=\"mb-4\">Minimal Letta Theme for Fashion</h4>\n<p>With all his cruel ferocity and coldness there was an \nunder of something in Tars Tarkas which he seemed \never battling to subdue. Could it be a of some human \ninstinct come back</p>\n<h4 class=\"mb-4 mt-5\">Classical & Easy Customize</h4>\n<p>With all his cruel ferocity and coldness there was an \nunder of something in Tars Tarkas which he seemed \never battling to subdue. Could it be a of some human \ninstinct come back.</p>\n</div>",
+            "code": "<img height=\"70\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<br><br>\nNace de la pasión por el bienestar de la piel y el compromiso con la ciencia cosmética. Somos una clínica especializada en aparatología estética, enfocada en el cuidado avanzado de la piel a través de tecnología de vanguardia. \n<br><br>\nAdemás, ofrecemos una línea seleccionada de productos de alta calidad, formulados para acompañar el cuidado diario de todo tipo de piel. Combinamos experiencia clínica con innovación cosmética para brindar soluciones integrales, seguras y confiables.",
             "width": "33%",
             "align": "center"
+          }
+        },
+        "image_x8x7Je": {
+          "type": "image",
+          "settings": {
+            "width": "33%",
+            "align": "center",
+            "image": "shopify://shop_images/img-porque_nace_mivi2.png",
+            "image_link": ""
           }
         }
       },
       "block_order": [
-        "1598176349095",
         "1598192409949",
-        "1598192428049"
+        "1598192428049",
+        "image_x8x7Je"
       ],
       "settings": {
         "enablesection": true,
