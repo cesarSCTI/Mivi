@@ -4702,5 +4702,11 @@
         "1561993581158"
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".product-card__info {background: #ead8ca;}",
+      "a.product-card__name {font-weight: 600;}"
+    ]
   }
 }
