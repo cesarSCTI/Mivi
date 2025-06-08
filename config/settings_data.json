@@ -21,10 +21,10 @@
     "loading_color": "#6c757d",
     "container": 1300,
     "gutter": 40,
-    "logo": "shopify://shop_images/logo-black.png",
-    "logo_white": "shopify://shop_images/logo-white_f351bf37-5708-4df1-9592-34978e5daa05.png",
+    "logo": "shopify://shop_images/fav-mivi_medical.png",
+    "logo_white": "shopify://shop_images/logo-mivi_medical_blanco.png",
     "logo_max_width": 130,
-    "favicon": "shopify://shop_images/icon.png",
+    "favicon": "shopify://shop_images/fav-mivi_medical.png",
     "safe_checkout_pcart": "",
     "safe_checkout_detail": "",
     "safe_checkout_cart": "",
@@ -2058,7 +2058,7 @@
           "enable_transparent": false,
           "hover_transparent": false,
           "enable_white": false,
-          "enable_sticky": true,
+          "enable_sticky": false,
           "enable_dropdownfull": true,
           "enabletopbar": false,
           "enable_login": true,
@@ -2090,10 +2090,10 @@
           "dots": false,
           "infinite": true,
           "radius": false,
-          "link_list_head": "",
-          "email_sidebar": true,
+          "link_list_head": "customer-account-main-menu",
+          "email_sidebar": false,
           "email_sidebar_title": "Newsletter",
-          "socialshare": true
+          "socialshare": false
         }
       },
       "footer-4": {
@@ -2675,7 +2675,7 @@
       "pnewsletter-3": {
         "type": "pnewsletter-3",
         "settings": {
-          "pnewletter_enable": true,
+          "pnewletter_enable": false,
           "pnewletter_time_delay": 3,
           "pnewletter_time": 20,
           "pnewletter_background": "",
