@@ -59,10 +59,10 @@
         "1587569402997": {
           "type": "address",
           "settings": {
-            "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">01</h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK</span>\n</div>",
-            "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
-            "contact_phone": "+844 123 456 789",
-            "contact_mail": "sale@yourcompany.com"
+            "store_addess": "<div class=\"mt-5\">\n<img height=\"130\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<br><br>\nEscríbenos via correo: \n\n</div>",
+            "contact_addess": "",
+            "contact_phone": "+52 33 1444 8013",
+            "contact_mail": "mivi.med.spa@gmail.com"
           }
         }
       },
