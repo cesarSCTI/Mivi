@@ -10,19 +10,19 @@
     <div class="row align-items-center">
       <!-- Imagen -->
       <div class="col-md-6 mb-4 mb-md-0 text-center">
-        {{ section.settings.image | image_url: width: 800 | img_tag: class: 'img-fluid rounded shadow' }}
+        {{ section.settings.image | image_url: width: 800 | image_tag: class: 'img-fluid rounded shadow' }}
       </div>
 
       <!-- Texto con íconos -->
       <div class="col-md-6">
-        <h2 class="font-weight-bold mb-4"><em>{{ section.settings.heading }}</em></h2>
+        <h4 class="font-weight-bold mb-4">{{ section.settings.heading }}</h4>
         <ul class="list-unstyled">
           {% for block in section.blocks %}
             <li class="mb-4 d-flex">
               {% if block.settings.icon %}
-                {{ block.settings.icon | image_url: width: 64 | img_tag: class: 'mr-3 icon' }}
+                {{ block.settings.icon | image_url: width: 64 | image_tag: class: 'mr-3 icon' }}
               {% endif %}
-              <p class="mb-0">{{ block.settings.text }}</p>
+              <p class="mb-10">{{ block.settings.text }}</p>
             </li>
           {% endfor %}
         </ul>
