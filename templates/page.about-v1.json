@@ -71,6 +71,9 @@
         "1598192428049",
         "image_x8x7Je"
       ],
+      "custom_css": [
+        ".row > .col-lg-4:nth-child(1) img {max-height:400px; object-fit: contain;}"
+      ],
       "settings": {
         "enablesection": true,
         "animation": "fade-up",
