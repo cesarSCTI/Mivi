@@ -51,9 +51,55 @@
         "dots": true,
         "infinite": true
       }
+    },
+    "image_icon_text_9NcX4y": {
+      "type": "image-iconText",
+      "blocks": {
+        "feature_zht9Kt": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/icono-formulas_MIVI.png",
+            "text": "Fórmulas cuidadosamente desarrolladas para mejorar visiblemente la piel."
+          }
+        },
+        "feature_T9MnQm": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/icono-tipos_de_piel_MIVI.png",
+            "text": "Aptos para todo tipo de piel, incluso las más sensibles."
+          }
+        },
+        "feature_NcPtxM": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/icono-texturas_MIVI.png",
+            "text": "Texturas ligeras, efectivas y sin fragancias agresivas."
+          }
+        },
+        "feature_Vy4VNT": {
+          "type": "feature",
+          "settings": {
+            "icon": "shopify://shop_images/icono-usuarios_mejoras_MIVI.png",
+            "text": "Usuarios notan mejoras en pocas semanas. *Resultados pueden variar según el tipo de piel."
+          }
+        }
+      },
+      "block_order": [
+        "feature_zht9Kt",
+        "feature_T9MnQm",
+        "feature_NcPtxM",
+        "feature_Vy4VNT"
+      ],
+      "name": "Mivi Skincare - Lista con imagen",
+      "settings": {
+        "bg_color": "#fff3f0",
+        "image": "shopify://shop_images/img-porque_elegir_mivi_medica_skin_care.png",
+        "heading": "¿Por qué elegir Mivi Medical Skincare?"
+      }
     }
   },
   "order": [
-    "featured_collections_QKWwcg"
+    "featured_collections_QKWwcg",
+    "image_icon_text_9NcX4y"
   ]
 }
