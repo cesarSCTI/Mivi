@@ -46,8 +46,8 @@
         "bgsection": "#fefefe",
         "bgstyle": false,
         "bgbefore": "#E3C9B8",
-        "title_top": "Sub Title Top",
-        "title": "Grid banner",
+        "title_top": "",
+        "title": "",
         "des": "",
         "setwidth": "full",
         "no_gutter": false
