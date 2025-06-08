@@ -9,6 +9,50 @@
  */
 {
   "sections": {
+    "grid_banner_87mj7K": {
+      "type": "grid-banner",
+      "blocks": {
+        "banner_URD8qy": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/bg-mivi_medical_general.png",
+            "width": "12",
+            "description": "<h2 class=\"mb-2\">Preguntas Frecuentes</h2>",
+            "bg_color": "#fefefe",
+            "colordef": "#000000",
+            "bg_colorhover": "#000000",
+            "colorhover": "#ffffff",
+            "opacity_bg": 0,
+            "max-width": 620,
+            "button_text": "",
+            "button_icon": "",
+            "button_link": "",
+            "vertical": "mid",
+            "horizontal": "right",
+            "text_align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "banner_URD8qy"
+      ],
+      "name": "Grid banner",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "bgsection": "#fefefe",
+        "bgstyle": false,
+        "bgbefore": "#E3C9B8",
+        "title_top": "Sub Title Top",
+        "title": "Grid banner",
+        "des": "",
+        "setwidth": "full",
+        "no_gutter": false
+      }
+    },
     "page-faqs": {
       "type": "page-faqs",
       "blocks": {
@@ -120,7 +164,7 @@
         "1563634530941"
       ],
       "custom_css": [
-        "form{display:none;}"
+        "form {display: none;}"
       ],
       "settings": {
         "paddingsection": "80px 0px 80px 0px",
@@ -136,6 +180,7 @@
     }
   },
   "order": [
+    "grid_banner_87mj7K",
     "page-faqs"
   ]
 }
