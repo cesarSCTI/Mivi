@@ -25,8 +25,8 @@
         "filter_type": "vertical",
         "enable_viewcolumn": true,
         "open_group": true,
-        "enable_color": true,
-        "type_color": true,
+        "enable_color": false,
+        "type_color": false,
         "style_color": "color_list",
         "style_size": "grid"
       }
