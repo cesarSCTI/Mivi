@@ -214,12 +214,44 @@
         "limit": 10,
         "show": 3
       }
+    },
+    "image_content_2_AqTttr": {
+      "type": "image-content-2",
+      "blocks": {
+        "image_block_KnchRe": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/vst_prev_mivi_redes_sc.png",
+            "linkimg": "",
+            "title": "",
+            "text": "",
+            "show_reverse": false
+          }
+        }
+      },
+      "block_order": [
+        "image_block_KnchRe"
+      ],
+      "name": "Image with text Style 2",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "bgsection": "#efe6df",
+        "setwidth": "container",
+        "align_center": true,
+        "setbig": "left",
+        "width": "12"
+      }
     }
   },
   "order": [
     "featured_collections_QKWwcg",
     "image_icon_text_9NcX4y",
     "brand_carousel_i9JYeg",
-    "product_tab_HRrtKk"
+    "product_tab_HRrtKk",
+    "image_content_2_AqTttr"
   ]
 }
