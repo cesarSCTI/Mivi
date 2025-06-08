@@ -43,7 +43,7 @@
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
-        "bgsection": "#fefefe",
+        "bgsection": "#efe6df",
         "bgstyle": false,
         "bgbefore": "#e3c9b8",
         "title_top": "",
@@ -117,7 +117,7 @@
       ],
       "custom_css": [
         "form {display: none;}",
-        ".layout-2 .faq-question:after {background: #E3A3A3;}"
+        ".layout-2 .faq-question:after {background: #e3a3a3;}"
       ],
       "settings": {
         "paddingsection": "80px 0px 80px 0px",
