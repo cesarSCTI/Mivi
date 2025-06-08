@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "page-faqs": {
@@ -20,15 +29,15 @@
         "1563634068295": {
           "type": "faq",
           "settings": {
-            "title": "Do I need a Designer\/Programmer for my store?",
-            "answer": "We’ve designed the theme to be as flexible and configurable as possible but also made it simple to use. You would only need a designer\/developer if you wanted to custom code something that the theme doesn’t do natively."
+            "title": "Do I need a Designer/Programmer for my store?",
+            "answer": "We’ve designed the theme to be as flexible and configurable as possible but also made it simple to use. You would only need a designer/developer if you wanted to custom code something that the theme doesn’t do natively."
           }
         },
         "1562290837129": {
           "type": "faq",
           "settings": {
             "title": "Where can I buy this theme?",
-            "answer": "We only sell this theme at Themeforest, you can buy there. If you need a trial version, please contact <a href=\"mailto:shopifytemplate@gmail.com\">shopifytemplate@gmail.com<\/a>"
+            "answer": "We only sell this theme at Themeforest, you can buy there. If you need a trial version, please contact <a href=\"mailto:shopifytemplate@gmail.com\">shopifytemplate@gmail.com</a>"
           }
         },
         "1563634113380": {
@@ -77,7 +86,7 @@
           "type": "faq",
           "settings": {
             "title": "What if I need help with Shopify issues?",
-            "answer": "General shop inquiries, such as uploading products, creating collections, adding discount codes, managing domains, etc. can be best addressed by reaching Shopify Support specifically and\/or by checking on their broad documentation accessible in the Shopify Manual."
+            "answer": "General shop inquiries, such as uploading products, creating collections, adding discount codes, managing domains, etc. can be best addressed by reaching Shopify Support specifically and/or by checking on their broad documentation accessible in the Shopify Manual."
           }
         },
         "1563634758436": {
@@ -110,11 +119,19 @@
         "1563634758436",
         "1563634530941"
       ],
+      "custom_css": [
+        "form{display:none;}"
+      ],
       "settings": {
-        "heading": "Frequently Asked Questions",
-        "subheading": "<p>Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions, <br>please just send it to <a href=\"mailto:shopifytemplate@gmail.com\">shopifytemplate@gmail.com<\/a>\n<\/p>",
-        "heading_faqs": "Ask Your Questions",
-        "layout": "layout-2"
+        "paddingsection": "80px 0px 80px 0px",
+        "paddingmobile": "0px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "setwidth": "container",
+        "heading": "",
+        "subheading": "",
+        "heading_faqs": "",
+        "layout": "layout-1"
       }
     }
   },
