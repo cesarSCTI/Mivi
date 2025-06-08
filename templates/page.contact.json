@@ -36,6 +36,9 @@
       "block_order": [
         "banner_FAhWtB"
       ],
+      "custom_css": [
+        "h2{background: #efe6dfab; padding: 10px 20px;}"
+      ],
       "name": "Grid banner",
       "settings": {
         "animation": "",
