@@ -1,7 +1,7 @@
 {% stylesheet %}
 {% if section.settings.image_bg != blank %}
 .mivi-skincare-section {
-  background-image: url({{ section.settings.image_bg | image_url: width: 2000 }});
+  background-image: url('{{ section.settings.image_bg | img_url: 'master' }}');
   background-size: cover;
   background-position: center;
 }
