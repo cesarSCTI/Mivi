@@ -142,10 +142,12 @@
         "logo_GtypFF",
         "logo_9DdVAy"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".text-center{margin-bottom: 50px; color:#fff;}"
+      ],
       "name": "Logo carousel",
       "settings": {
-        "animation": "",
+        "animation": "fade-up",
         "paddingsection": "50px 0px 50px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -154,7 +156,7 @@
         "title_top": "En Mivi Medical ofrecemos productos de marcas reconocidas en el ámbito de la cosmética",
         "title": "",
         "des": "",
-        "setwidth": "container",
+        "setwidth": "full",
         "grayscale": false,
         "arrows": false,
         "draggable": true,
