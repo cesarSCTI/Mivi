@@ -559,7 +559,7 @@
             "type": "text",
             "settings": {
               "logofooter": "shopify://shop_images/logo-mivi_medical_blanco.png",
-              "widthlogofooter": 210,
+              "widthlogofooter": 180,
               "title": "",
               "text": "",
               "width": "25%"
