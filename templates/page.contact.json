@@ -76,10 +76,44 @@
         "gmap": false,
         "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https://maps.google.com/maps?q=68%20nguyen%20co%20thach&t=&z=15&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe>Google Maps Generator by <a href=\"https://www.embedgooglemap.net\">embedgooglemap.net</a>\n</div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }</style>\n</div>"
       }
+    },
+    "advanced_content_U6mJa4": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_FdUqPt": {
+          "type": "html",
+          "settings": {
+            "code": "<style>\n.shopify-section {\n    background: #EFE6DF;\nmargin:0px !important;\n}\n.main-content{\npadding:0px;\n}\n</style>",
+            "width": "100%",
+            "align": "auto"
+          }
+        }
+      },
+      "block_order": [
+        "html_FdUqPt"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#fefefe",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
+      }
     }
   },
   "order": [
     "grid_banner_8AK9Kn",
-    "page-contact"
+    "page-contact",
+    "advanced_content_U6mJa4"
   ]
 }
