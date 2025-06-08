@@ -21,7 +21,7 @@
             "bg_color": "#fefefe",
             "colordef": "#000000",
             "bg_colorhover": "#000000",
-            "colorhover": "#ffffff",
+            "colorhover": "#000000",
             "opacity_bg": 0,
             "max-width": 620,
             "button_text": "",
@@ -130,10 +130,44 @@
         "heading_faqs": "",
         "layout": "layout-2"
       }
+    },
+    "advanced_content_wARfmi": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_9KCECV": {
+          "type": "html",
+          "settings": {
+            "code": "<style>\n.main-content{\nbackground:#EFE6DF;\n}\n</style>",
+            "width": "100%",
+            "align": "auto"
+          }
+        }
+      },
+      "block_order": [
+        "html_9KCECV"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#fefefe",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
+      }
     }
   },
   "order": [
     "grid_banner_87mj7K",
-    "page-faqs"
+    "page-faqs",
+    "advanced_content_wARfmi"
   ]
 }
