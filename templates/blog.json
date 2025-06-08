@@ -44,7 +44,7 @@
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
-        "bgsection": "#ffffff",
+        "bgsection": "#efe6df",
         "bgstyle": false,
         "bgbefore": "#E3C9B8",
         "title_top": "",
@@ -56,6 +56,7 @@
     },
     "main": {
       "type": "blog-template",
+      "custom_css": [],
       "settings": {
         "blogpage": "blog-1",
         "limit": 8,
@@ -63,10 +64,44 @@
         "sidebar_position": "right",
         "item_width": "grid-item-3"
       }
+    },
+    "advanced_content_QdgjRY": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_9kDTqB": {
+          "type": "html",
+          "settings": {
+            "code": "<style>\n.shopify-section {\n    background: #EFE6DF;\nmargin:0px !important;\n\n}\n</style>",
+            "width": "100%",
+            "align": "auto"
+          }
+        }
+      },
+      "block_order": [
+        "html_9kDTqB"
+      ],
+      "name": "css",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#fefefe",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
+      }
     }
   },
   "order": [
     "grid_banner_rN43C9",
-    "main"
+    "main",
+    "advanced_content_QdgjRY"
   ]
 }
