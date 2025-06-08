@@ -82,7 +82,7 @@
         "title_top": "",
         "title": "",
         "des": "",
-        "setwidth": "container",
+        "setwidth": "full",
         "padding": true
       }
     },
