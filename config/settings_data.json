@@ -179,6 +179,7 @@
     "apmenuitem_cproduct_5": "",
     "apmenuitem_ehtml_5": false,
     "apmenuitem_columns_blockhtml_5": "1",
+    "enable_breadcrumb": false,
     "color_breadcrumbs": "#262613",
     "color_breadcrumbs_active": "#193a43",
     "bg_breadcrumb": "#f4f1eb",
