@@ -31,7 +31,7 @@
         "des": "<img height=\"170\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<h3 style=\"margin-top:50px;\">Estética avanzada y formulaciones especializadas para el bienestar de tu piel.</h3>",
         "image": "shopify://shop_images/img-quien_es_mivi.png",
         "linkimg": "",
-        "bgimage": "#F4F1EB",
+        "bgimage": "#f4f1eb",
         "enable_subbg": true,
         "leftimage": true
       }
@@ -162,6 +162,7 @@
         "1598193501450",
         "1598193585286"
       ],
+      "disabled": true,
       "settings": {
         "enablesection": true,
         "animation": "fade-up",
@@ -210,6 +211,7 @@
         "1598194195682",
         "1598194200197"
       ],
+      "disabled": true,
       "settings": {
         "enablesection": true,
         "animation": "fade-up",
@@ -233,6 +235,7 @@
     },
     "newsletter-page-1": {
       "type": "newsletter-page-1",
+      "disabled": true,
       "settings": {
         "enablesection": true,
         "animation": "fade-up",
