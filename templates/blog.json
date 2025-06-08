@@ -65,6 +65,23 @@
         "item_width": "grid-item-3"
       }
     },
+    "newsletter_P7bAfe": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "animation": "",
+        "paddingsection": "100px 0px 0px 100px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "bgsection": "#ffffff",
+        "title_top": "",
+        "title": "¿Quieres una piel radiante todo el año?",
+        "des": "Suscríbete a nuestro newsletter y recibe tips, novedades en cosmética clínica y promociones exclusivas directo en tu correo.",
+        "setwidth": "container",
+        "colorborder": "#000000"
+      }
+    },
     "advanced_content_QdgjRY": {
       "type": "advanced-content",
       "blocks": {
@@ -102,6 +119,7 @@
   "order": [
     "grid_banner_rN43C9",
     "main",
+    "newsletter_P7bAfe",
     "advanced_content_QdgjRY"
   ]
 }
