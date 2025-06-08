@@ -1,0 +1,50 @@
+{
+    "sections": {
+      "page-contact": {
+        "type": "page-contact",
+        "blocks": {
+          "1587569402997": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">01<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          },
+          "1587569420887": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">02<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          },
+          "1587569429598": {
+            "type": "address",
+            "settings": {
+              "store_addess": "<div class=\"mt-5\">\n<h2 class=\"mb-3 f-90\">03<\/h2>\n<span class=\"text-body font-weight-bold\">STORE NEWYORK<\/span>\n<\/div>",
+              "contact_addess": "123 Sky Tower, West 21th Street, Suite 721, NY",
+              "contact_phone": "+844 123 456 789",
+              "contact_mail": "sale@yourcompany.com"
+            }
+          }
+        },
+        "block_order": [
+          "1587569402997",
+          "1587569420887",
+          "1587569429598"
+        ],
+        "settings": {
+          "title_page": "Contact us",
+          "contact_des": "<p>Minimalist styling is not about creating a cold, hard, empty white box of a home. It is about using simple and natural forms, <br>\nand taking away layers without losing the aesthetic appeal of the space.<\/p>",
+          "gmap": true,
+          "gmap_iframe": "<div class=\"mapouter\">\n<div class=\"gmap_canvas\">\n<iframe width=\"1080\" height=\"500\" id=\"gmap_canvas\" src=\"https:\/\/maps.google.com\/maps?q=68%20nguyen%20co%20thach&t=&z=15&ie=UTF8&iwloc=&output=embed\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"><\/iframe>Google Maps Generator by <a href=\"https:\/\/www.embedgooglemap.net\">embedgooglemap.net<\/a>\n<\/div>\n<style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}.gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ width:100% !important; } @media (max-width:767px){ .gmap-iframe .mapouter, .gmap-iframe .gmap_canvas, .gmap-iframe iframe{ height:350px !important; } }<\/style>\n<\/div>"
+        }
+      }
+    },
+    "order": [
+      "page-contact"
+    ]
+  }

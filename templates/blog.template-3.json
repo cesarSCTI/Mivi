@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "blogpage": "blog-3",
+        "limit": 8,
+        "sidebar_enable": false,
+        "sidebar_position": "right",
+        "item_width": "grid-item-3"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "s_team_member": {
+      "type": "s_team_member",
+      "blocks": {
+        "1561564468399": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team1.jpg",
+            "name": "Danielle Kim",
+            "position": "Senior Producer",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": "https:\/\/www.linkedin.com\/"
+          }
+        },
+        "1561564888625": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team2.jpg",
+            "name": "Ian Watt",
+            "position": "Director of Motion & Visual Effects",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": "https:\/\/www.linkedin.com\/"
+          }
+        },
+        "1561564968664": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team3.jpg",
+            "name": "Alex Sturtevant",
+            "position": "Global Director of Brand",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        },
+        "1561565036423": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team7.jpg",
+            "name": "Jon Lawton",
+            "position": "UX Designer",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        },
+        "1561565047238": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team4.jpg",
+            "name": "Arpad Ray",
+            "position": "Executive Technical Director",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        },
+        "1561565058401": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team8.jpg",
+            "name": "Erin Noel",
+            "position": "Director of Operations",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        },
+        "1561565071217": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team6.jpg",
+            "name": "Katie Sharrow-Reabe",
+            "position": "Social Strategist",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        },
+        "1561565080408": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team5.jpg",
+            "name": "Tim Blount",
+            "position": "Technical Director",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        },
+        "1561565091506": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team9.jpg",
+            "name": "Mick Coelho",
+            "position": "Sr. Creative Developer",
+            "twitter": "https:\/\/twitter.com\/",
+            "google": "https:\/\/plus.google.com",
+            "facebook": "https:\/\/www.facebook.com\/",
+            "linkedin": ""
+          }
+        }
+      },
+      "block_order": [
+        "1561564468399",
+        "1561564888625",
+        "1561564968664",
+        "1561565036423",
+        "1561565047238",
+        "1561565058401",
+        "1561565071217",
+        "1561565080408",
+        "1561565091506"
+      ],
+      "settings": {
+        "setwidth": "container",
+        "animation": "fade-up",
+        "items": "3",
+        "layout": "2",
+        "main_color": "#416e7a",
+        "bg_color": "",
+        "bg_attachment": false,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "title": "Meet Our Team",
+        "title_cl": "#193a43",
+        "title_style": "font-size:36px;text-align:center;",
+        "subtitle": "Our team brings a wealth of experience from some of the world’s most formidable production studios, agencies and startups.",
+        "subtitle_cl": "#656f77",
+        "subtitle_style": "font-size:14px;text-align:center;"
+      }
+    }
+  },
+  "order": [
+    "s_team_member"
+  ]
+}

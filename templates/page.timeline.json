@@ -1,0 +1,241 @@
+{
+  "sections": {
+    "s_timeline": {
+      "type": "s_timeline",
+      "blocks": {
+        "1561567030482": {
+          "type": "time",
+          "settings": {
+            "bg": "#50d890",
+            "title": "Start developing",
+            "description": "Wishlist function smart and fast, with just one click",
+            "time": "Mar 22, 2019",
+            "link": "shopify:\/\/pages\/about-us-v2"
+          }
+        },
+        "1561567005786": {
+          "type": "time",
+          "settings": {
+            "bg": "#4d80e4",
+            "title": "Wishlist function",
+            "description": "Wishlist function smart and fast, with just one click",
+            "time": "Mar 26, 2019",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "1561567706480": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Compare function",
+            "description": "",
+            "time": "Mar 27, 2019"
+          }
+        },
+        "1561568201725": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Shortcode",
+            "description": "Easily add content with the shortcodes built-in snippets in our theme",
+            "time": "Mar 28, 2019",
+            "link": "shopify:\/\/pages\/shortcode"
+          }
+        },
+        "1561568520359": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Boostraps 4.0",
+            "description": "Bootstrap 4 is the newest version of Bootstrap, which is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites",
+            "time": "Mar 28, 2019"
+          }
+        },
+        "1561568674547": {
+          "type": "time",
+          "settings": {
+            "bg": "#ff414c",
+            "title": "Deploy in Github",
+            "description": "GitHub is an American company that provides hosting for software development version control using Git",
+            "time": "Apr 9, 2019"
+          }
+        },
+        "1561568960976": {
+          "type": "time",
+          "settings": {
+            "bg": "#01bad4",
+            "title": "Newsletter, Countdown added",
+            "description": "Develop the basic functions of an e-commerce store",
+            "time": "Apr 16, 2019"
+          }
+        },
+        "1561569090623": {
+          "type": "time",
+          "settings": {
+            "bg": "#006eff",
+            "title": "Product Related featured",
+            "description": "",
+            "time": "Apr 18, 2019"
+          }
+        },
+        "1561569238378": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Megamenu featured",
+            "description": "Megamenu with 4 blocks are built-in, with high customization ability",
+            "time": "May 2, 2019"
+          }
+        },
+        "1561569388874": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Filter function",
+            "description": "Powerful and fast Ajax Filter works with product cards, combined with the Price Range, helps customers easily select the desired products",
+            "time": "May 8, 2019",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "1561569751412": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Cross-sell featured",
+            "description": "Show more suggestions when customers add products to the cart",
+            "time": "May 20, 2019",
+            "link": "shopify:\/\/products\/aloha-t-shirt"
+          }
+        },
+        "1561569915429": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Swatch variant images",
+            "description": "Display product images corresponding to each product variant",
+            "time": "May 22, 2019",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "1561570018778": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Ajax Mini Cart",
+            "description": "Designed with a minimalist, user-friendly and the mobile first standard, full display of important information in the customer orders",
+            "time": "May 25, 2019"
+          }
+        },
+        "1561570184261": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Quickview function",
+            "description": "",
+            "time": "May 28, 2019"
+          }
+        },
+        "1561570228141": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Suggest product, display viewers",
+            "description": "Functions to create crowd effects, help your customers trust more when shopping",
+            "time": "Jun 15, 2019"
+          }
+        },
+        "1561570436107": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Recently viewed function",
+            "description": "A smart function, designed in the form of a popup, to help your customers find products that have been viewed wherever and whenever",
+            "time": "Jun 17, 2019"
+          }
+        },
+        "1561570602485": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Notify a soldout variant",
+            "description": "Notify and suggest customers leave email when the product version has sold out, helping to increase conversions, and collecting customer datas",
+            "time": "Jun 20, 2019",
+            "link": "shopify:\/\/products\/grifin-lace-up-cotton-blend"
+          }
+        },
+        "1561570850099": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "Product video function",
+            "description": "You can easily upload *.mp4 files on the store, and add each product by the metafields",
+            "time": "Jun 22, 2019",
+            "link": "shopify:\/\/products\/jbags-round-neck"
+          }
+        },
+        "1561571026065": {
+          "type": "time",
+          "settings": {
+            "bg": "#c3935b",
+            "title": "BIG UPDATE: Restructuring files and folders",
+            "description": "Change the organization of files in the theme to support multi-layout (header, footer,..) and multi-template (product page, collection page,..). The number of layouts and templates are unlimited",
+            "time": "Jun 25, 2019"
+          }
+        },
+        "1561571402426": {
+          "type": "time",
+          "settings": {
+            "bg": "#c99a5c",
+            "title": "To be continued...",
+            "description": "",
+            "time": ""
+          }
+        }
+      },
+      "block_order": [
+        "1561567030482",
+        "1561567005786",
+        "1561567706480",
+        "1561568201725",
+        "1561568520359",
+        "1561568674547",
+        "1561568960976",
+        "1561569090623",
+        "1561569238378",
+        "1561569388874",
+        "1561569751412",
+        "1561569915429",
+        "1561570018778",
+        "1561570184261",
+        "1561570228141",
+        "1561570436107",
+        "1561570602485",
+        "1561570850099",
+        "1561571026065",
+        "1561571402426"
+      ],
+      "settings": {
+        "border": "#f4f1eb",
+        "caption-bg": "#f4efe9",
+        "title_color": "#222222",
+        "des_color": "#666666",
+        "btn-bg": "#c99a5c",
+        "button-text": "View now",
+        "bg_color": "#ffffff",
+        "bg_attachment": true,
+        "max_width": 1390,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "title": "Our journey",
+        "title_cl": "#262613",
+        "subtitle": "Follow us here",
+        "subtitle_cl": "#6c757d"
+      }
+    }
+  },
+  "order": [
+    "s_timeline"
+  ]
+}

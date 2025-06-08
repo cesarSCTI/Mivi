@@ -1,0 +1,250 @@
+<!-- collection-template-1.liquid -->
+{% assign layout = section.settings.collectionpage %}
+{% case layout %}
+  {% when 'collection-1' %}
+      {% include 'collection-template-1'%}
+  {% when 'collection-2' %}
+        {% include 'collection-template-2'%}
+  {% when 'collection-3' %}
+    {% include 'collection-template-3'%}
+  {% when 'collection-4' %}
+    {% include 'collection-template-4'%}
+  {% when 'collection-5' %}
+    {% include 'collection-template-5'%}
+  {% when 'collection-6' %}
+      {% include 'collection-template-6'%}
+  {% when 'collection-7' %}
+    {% include 'collection-template-7' %}
+  {% else %}
+  {% include 'collection-template-1'%}
+{% endcase %}
+{% schema %}
+{
+  "name": "Collection Template",
+  "settings": [
+    {
+      "type": "select",
+      "id": "collection_width",
+      "label": "Set Width Collection",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "Container"
+        },
+        {
+          "value": "container-fluid",
+          "label": "Container Fluid"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "collectionpage",
+      "label": "Collection page",
+      "info": "Apply for all collections",
+      "default": "collection-1",
+      "options": [
+        {
+          "value": "collection-1",
+          "label": "Template Sidebar Left"
+        },
+        {
+          "value": "collection-2",
+          "label": "Template Sidebar Right"
+        },
+        {
+          "value": "collection-3",
+          "label": "Template Full"
+        },
+        {
+          "value": "collection-4",
+          "label": "Template Masonry"
+        },
+        {
+          "value": "collection-5",
+          "label": "Template Special"
+        },
+        {
+          "value": "collection-6",
+          "label": "Template Infinity Scroll"
+        },
+        {
+          "value": "collection-7",
+          "label": "Filter 2.0 "
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "collection_perpage",
+      "min": 12,
+      "max": 50,
+      "step": 1,
+      "label": "Number displayed",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "collection_perrow",
+      "label": "Products per row",
+      "default": "3",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Only Template sidebar"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sidebar",
+      "default": true,
+      "label": "Show Sidebar"
+    },
+    {
+      "type": "select",
+      "id": "sidebar_col",
+      "label": "Sidebar width",
+      "default": "col-md-3",
+      "options": [
+        {
+          "value": "col-md-2-4",
+          "label": "20%"
+        },
+        {
+          "value": "col-md-3",
+          "label": "25%"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Collection meta"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_title",
+      "default": true,
+      "label": "Show Title"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_description",
+      "default": true,
+      "label": "Show description"
+    },
+    {
+      "type": "header",
+      "content": "Only Template filter 2.0"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_filtering",
+      "default": true,
+      "label": "Enable filtering",
+      "info": "Customize [filters](/admin/menus)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sorting",
+      "default": true,
+      "label": "Enable sorting"
+    },
+    {
+      "type": "select",
+      "id": "filter_type",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "Horizontal"
+        },
+        {
+          "value": "vertical",
+          "label": "Vertical"
+        },
+        {
+          "value": "drawer",
+          "label": "Drawer"
+        }
+      ],
+      "default": "horizontal",
+      "label": "Desktop filter layout",
+      "info": "Drawer is the default mobile layout."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_viewcolumn",
+      "default": true,
+      "label": "Enable View Mode "
+    },
+    {
+      "type": "checkbox",
+      "id": "open_group",
+      "default": false,
+      "label": "Open all group"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_color",
+      "default": true,
+      "label": "Enable Color Filter"
+    },
+    {
+      "type": "checkbox",
+      "id": "type_color",
+      "default": true,
+      "label": "Enable Circle Style",
+      "info": "If disable color is style Square"
+    },
+    {
+      "type": "select",
+      "id": "style_color",
+      "label": "Style Color Filter",
+      "default": "color_list",
+      "options": [
+        {
+          "value": "color_list",
+          "label": "List Color"
+        },
+        {
+          "value": "color_grid",
+          "label": "Grid Color"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": " Style Size"
+    },
+    {
+      "type": "select",
+      "id": "style_size",
+      "label": "Style Size Filter",
+      "default": "list",
+      "options": [
+        {
+          "value": "list",
+          "label": "List Size"
+        },
+        {
+          "value": "grid",
+          "label": "Grid Size"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

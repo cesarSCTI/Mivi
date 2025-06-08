@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "page-story": {
+      "type": "page-story",
+      "blocks": {
+        "1562226014393": {
+          "type": "story",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/team6.jpg",
+            "name": "Grailasia",
+            "info": "From United Kingdom",
+            "story": "The theme is very good, the after-sales service is very fast, and patiently help you solve the problem."
+          }
+        },
+        "1562341727642": {
+          "type": "story",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/team5.jpg",
+            "name": "Kenny",
+            "info": "Admin <a target=\"_blank\" href=\"https:\/\/www.booktoworld.com\/\">booktoworld.com<\/a>",
+            "story": "Fantastic them, and awesome customer support. Quick to respond and did everything i asked with perfection. Highly recommend these guys. Very professional"
+          }
+        },
+        "1562226059233": {
+          "type": "story",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/team2.jpg",
+            "name": "Jessica",
+            "info": "From <a target=\"_blank\" href=\"http:\/\/ap2020.myshopify.com\">2020.com<\/a>",
+            "story": "The customer support after purchase have been great! We have been working together with the Apollo team and we are very satisfied with all the improvements achieved! And we are very happy with the results! Just check it out :) <a target=\"_blank\" href=\"http:\/\/ap2020.myshopify.com\">www.2020.com<\/a>\n\nEven thought, the Apollo team is 7 hours ahead of us, they have made the effort to catch up with us almost on a daily basis.\n\nA big thank you specially to Tuan!"
+          }
+        },
+        "1562226081931": {
+          "type": "story",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/team8.jpg",
+            "name": "Pickett",
+            "info": "Located in Canada",
+            "story": "Love this theme! The customer service is platinum level. I had many questions and needed help with multiple things since I am new to Shopify.\nThey always answered my questions very quickly and fixed many things for me that I could not figure out. They are awesome!"
+          }
+        }
+      },
+      "block_order": [
+        "1562226014393",
+        "1562341727642",
+        "1562226059233",
+        "1562226081931"
+      ],
+      "settings": {
+        "heading": "Our story",
+        "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+        "banner": "shopify:\/\/shop_images\/team9.jpg",
+        "righttitle": "Tell us your story",
+        "righttext": "Give us a call, shoot us an email, or drop in for some wonderfully brewed coffee, or click the button below",
+        "button": "Share it now"
+      }
+    }
+  },
+  "order": [
+    "page-story"
+  ]
+}

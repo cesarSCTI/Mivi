@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "social_sharing_blog": true,
+        "same_blog": "In same category",
+        "related_blog": "Related by tags",
+        "sidebar_enable": false,
+        "sidebar_position": "right",
+        "blog_show_previous_and_next_buttons": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

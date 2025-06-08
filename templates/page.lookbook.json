@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "lookbook-carousel": {
+      "type": "lookbook-carousel",
+      "blocks": {
+        "1563897815428": {
+          "type": "lookbook",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "instagram": "https:\/\/instagram.com",
+            "product": "satin-matte-blushsatin-matte-blush",
+            "dot_color": "#ffffff",
+            "left": 47,
+            "top": 44
+          }
+        },
+        "1563895908631": {
+          "type": "lookbook",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.jpg",
+            "instagram": "https:\/\/instagram.com",
+            "product": "seriously-soothing-day-cream",
+            "dot_color": "#ffffff",
+            "left": 41,
+            "top": 34
+          }
+        }
+      },
+      "block_order": [
+        "1563897815428",
+        "1563895908631"
+      ],
+      "settings": {
+        "animation": "fade",
+        "paddingsection": "60px 0px 60px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "bgsection": "#fefefe",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "background": "#ffffff",
+        "arrows": true,
+        "draggable": true,
+        "dots": true,
+        "infinite": true
+      }
+    }
+  },
+  "order": [
+    "lookbook-carousel"
+  ]
+}

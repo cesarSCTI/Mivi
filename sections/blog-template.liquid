@@ -1,0 +1,99 @@
+<!-- blog-template.liquid -->
+{% assign blogpage = section.settings.blogpage %}
+{% case blogpage %}
+  {% when 'blog-1' %}
+    {% include 'blog-template-1' %}
+  {% when 'blog-2' %}
+    {% include 'blog-template-2' %}
+  {% when 'blog-3' %}
+    {% include 'blog-template-3' %}
+  {% else %}
+  {% include 'blog-template-1' %}
+{% endcase %}
+{% schema %}
+  {
+    "name": "Blog template",
+    "settings": [
+      {
+        "type": "select",
+        "id": "blogpage",
+        "label": "Blog page",
+        "default": "blog-1",
+        "options": [
+          {
+            "value": "blog-1",
+            "label": "Template 1"
+          },
+          {
+            "value": "blog-2",
+            "label": "Template 2"
+          },
+          {
+            "value": "blog-3",
+            "label": "Template 3"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "limit",
+        "min": 6,
+        "max": 50,
+        "step": 1,
+        "label": "Limit",
+        "default": 8
+      },
+      {
+        "type": "header",
+        "content": "Sidebar"
+      },
+      {
+        "type": "checkbox",
+        "id": "sidebar_enable",
+        "label": "Enable",
+		"default": true
+      },
+      {
+        "type": "select",
+        "id": "sidebar_position",
+        "label": "Position",
+        "default": "right",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Sidebar"
+      },
+      {
+        "type": "select",
+        "id": "item_width",
+        "label": "Items width",
+        "default": "grid-item-3",
+        "info": "Only Template 3",
+        "options": [
+          {
+            "value": "grid-item-3",
+            "label": "33.3333%"
+          },
+          {
+            "value": "grid-item-4",
+            "label": "25%"
+          },
+          {
+            "value": "grid-item-5",
+            "label": "20%"
+          }
+        ]
+      }
+]
+  }
+{% endschema %}
