@@ -1,8 +1,4 @@
 {% stylesheet %}
-.mivi-skincare-section img.icon {
-  width: 32px;
-  height: auto;
-}
 {% if section.settings.image_bg != blank %}
 .mivi-skincare-section {
   background-image: url('{{ section.settings.image_bg | image_url: width: 2000 }}');
@@ -17,17 +13,17 @@
     <div class="row align-items-center">
       <!-- Imagen -->
       <div class="col-md-6 mb-4 mb-md-0 text-center">
-        {{ section.settings.image | image_url: width: 800 | image_tag: class: 'img-fluid' }}
+        {{ section.settings.image | image_url: height: section.settings.height_image | image_tag: class: 'img-fluid' }}
       </div>
 
       <!-- Texto con íconos -->
       <div class="col-md-6">
-        <{{section.settings.typeHeader}} class="font-weight-bold mb-4">{{ section.settings.heading }}</{{section.settings.typeHeader}}>
+        <{{section.settings.typeHeader}} >{{ section.settings.heading }}</{{section.settings.typeHeader}}>
         <ul class="list-unstyled">
           {% for block in section.blocks %}
             <li class="mb-4 d-flex">
               {% if block.settings.icon %}
-                {{ block.settings.icon | image_url: width: block.settings.height_icon | image_tag: class: 'mr-3 icon' }}
+                {{ block.settings.icon | image_url: width: block.settings.height_icon | image_tag: class: 'mr-3 icon img-fluid' }}
               {% endif %}
               <p class="mb-10">{{ block.settings.text }}</p>
             </li>
@@ -60,7 +56,7 @@
     },
     {
         "type": "range",
-        "id": "height_icon",
+        "id": "height_image",
         "label": "Altura de imagen",   
         "default": 500,
         "min": 0,      
