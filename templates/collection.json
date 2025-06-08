@@ -1,10 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "product-grid": {
       "type": "collection-template-1",
       "settings": {
-        "collection_width": "container",
-        "collectionpage": "collection-7",
+        "collection_width": "container-fluid",
+        "collectionpage": "collection-3",
         "collection_perpage": 24,
         "collection_perrow": "3",
         "enable_sidebar": true,
@@ -18,7 +27,7 @@
         "open_group": true,
         "enable_color": true,
         "type_color": true,
-        "style_color": "color_grid",
+        "style_color": "color_list",
         "style_size": "grid"
       }
     }
