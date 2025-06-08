@@ -139,7 +139,8 @@
         "logo_JHxdgf"
       ],
       "custom_css": [
-        ".text-center {margin-bottom: 50px; color: #fff;}"
+        ".text-center {margin-bottom: 50px; color: #fff;}",
+        "img{max-height: 120px; object-fit: contain;}"
       ],
       "name": "Logo carousel",
       "settings": {
