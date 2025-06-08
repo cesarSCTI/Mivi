@@ -4707,8 +4707,9 @@
     "custom_css": [
       ".product-card__info {background: #ead8ca;}",
       "a.product-card__name {font-weight: 600;}",
+      ".product-card img {height: 300px; object-fit: contain;}",
       ".main-content {padding: 0px;}",
-      ".pagination.js-pagination{padding-bottom: 40px;}"
+      ".pagination.js-pagination {padding-bottom: 40px;}"
     ]
   }
 }
