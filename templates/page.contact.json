@@ -20,14 +20,14 @@
             "description": "<h2 class=\"mb-2\">Contacto</h2>",
             "bg_color": "#efe6df",
             "colordef": "#000000",
-            "bg_colorhover": "#C99A5C",
+            "bg_colorhover": "#c99a5c",
             "colorhover": "#000000",
             "opacity_bg": 0,
             "max-width": 460,
             "button_text": "",
             "button_icon": "",
             "button_link": "",
-            "vertical": "bottom",
+            "vertical": "mid",
             "horizontal": "right",
             "text_align": "center"
           }
@@ -45,7 +45,7 @@
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
         "bgstyle": false,
-        "bgbefore": "#E3C9B8",
+        "bgbefore": "#e3c9b8",
         "title_top": "",
         "title": "",
         "des": "",
@@ -71,7 +71,7 @@
       ],
       "custom_css": [
         "input,textarea {border-bottom: #000 solid 1px; color: #000;}",
-        ".btn{color:#fff ;}"
+        ".btn {color: #fff;}"
       ],
       "settings": {
         "title_page": "¿Tienes dudas o necesitas ayuda?",
@@ -106,7 +106,7 @@
         "zindex": "0",
         "bgsection": "#fefefe",
         "rangebg": 0,
-        "bgbefore": "transparent",
+        "bgbefore": "rgba(0,0,0,0)",
         "title_top": "",
         "title": "",
         "des": "",
