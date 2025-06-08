@@ -558,9 +558,9 @@
             "type": "text",
             "settings": {
               "logofooter": "shopify://shop_images/logo-mivi_medical_blanco.png",
-              "widthlogofooter": 130,
+              "widthlogofooter": 210,
               "title": "",
-              "text": "Apparently we had reached a great height<br> \nin the atmosphere, for the sky was a dead<br>\nblack and there a stars.",
+              "text": "",
               "width": "25%"
             }
           },
@@ -568,46 +568,40 @@
             "type": "text",
             "settings": {
               "widthlogofooter": 130,
-              "title": "Locate us",
-              "text": "<div>487 Eighth Avenue West Street, <br>\nNew York<br><br>\nPhone: 0035265244<br>\n<a href=\"mailto:E-mail:%20info@onea.com\"><u>E-mail: info@onea.com</u></a><br>\n</div>",
+              "title": "Contacto",
+              "text": "<div>\nEscríbenos via correo: <a href='mailto:mivi.med.spa@gmail.com\"'>mivi.med.spa@gmail.com </a>\n<br><br>\nLlámanos si tienes dudas: <br>\n<a href=\"tel:52%203314448013\">\n+52 33 1444 8013\n</a>\n</div>",
               "width": "25%"
-            }
-          },
-          "1562342622030": {
-            "type": "menu",
-            "settings": {
-              "link_list": "footer",
-              "width": "16%"
             }
           },
           "1567410176792": {
             "type": "menu",
             "settings": {
-              "link_list": "main-menu",
+              "link_list": "pol-ticas",
               "width": "16%"
             }
           },
-          "1595697133730": {
-            "type": "menu",
+          "newsletter_rTrdTj": {
+            "type": "newsletter",
             "settings": {
-              "link_list": "footer",
-              "width": "16%"
+              "title": "Mantente informado",
+              "subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+              "enablesocial": false,
+              "width": "33%"
             }
           }
         },
         "block_order": [
           "1595696762386",
           "1567410186399",
-          "1562342622030",
           "1567410176792",
-          "1595697133730"
+          "newsletter_rTrdTj"
         ],
         "settings": {
           "setwidth": "container",
-          "background": "#262613",
+          "background": "#000000",
           "border_headfooter": "rgba(0,0,0,0)",
-          "background_bot": "#262613",
-          "border-copryright": "#3a3a23",
+          "background_bot": "#000000",
+          "border-copryright": "#ffffff",
           "text": "#fafafa",
           "title": "#ffffff",
           "text_copy": "#ffffff",
@@ -616,7 +610,8 @@
           "footer_font_weight": "400",
           "footer_spacing": 0,
           "footer_typetext": "uppercase",
-          "payment_info": "svg"
+          "payment_info": "img",
+          "imgpayment": "shopify://shop_images/pagos.png"
         }
       },
       "product-template-1": {
