@@ -69,6 +69,9 @@
       "block_order": [
         "1587569402997"
       ],
+      "custom_css": [
+        "input,textarea {border-bottom: #000 solid 1px; color:#000;}"
+      ],
       "settings": {
         "title_page": "¿Tienes dudas o necesitas ayuda?",
         "contact_des": "<p>Si tienes preguntas sobre nuestros productos, tu pedido, formas de pago o <br>simplemente quieres orientación sobre qué usar para tu tipo de piel, escríbenos. <br>Nuestro equipo te responderá lo antes posible.</p>",
