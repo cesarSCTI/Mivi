@@ -70,7 +70,8 @@
         "1587569402997"
       ],
       "custom_css": [
-        "input,textarea {border-bottom: #000 solid 1px; color:#000;}"
+        "input,textarea {border-bottom: #000 solid 1px; color: #000;}",
+        ".btn{color:#fff ;}"
       ],
       "settings": {
         "title_page": "¿Tienes dudas o necesitas ayuda?",
