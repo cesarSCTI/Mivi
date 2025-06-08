@@ -1,7 +1,7 @@
 {% stylesheet %}
 {% if section.settings.image_bg != blank %}
 .mivi-skincare-section {
-  background-image: url('{{ section.settings.image_bg | image_url: width: 2000 }}');
+  background-image: url({{ section.settings.image_bg | image_url: width: 2000 }});
   background-size: cover;
   background-position: center;
 }
@@ -23,7 +23,7 @@
           {% for block in section.blocks %}
             <li class="mb-4 d-flex">
               {% if block.settings.icon %}
-                {{ block.settings.icon | image_url: width: block.settings.height_icon | image_tag: class: 'mr-3 icon img-fluid' }}
+                {{ block.settings.icon | image_url: width: block.settings.height_icon | image_tag: class: 'mr-3 img-fluid' }}
               {% endif %}
               <p class="mb-10">{{ block.settings.text }}</p>
             </li>
