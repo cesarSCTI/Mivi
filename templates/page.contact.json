@@ -83,7 +83,7 @@
         "html_FdUqPt": {
           "type": "html",
           "settings": {
-            "code": "<style>\n.shopify-section {\n    background: #EFE6DF;\nmargin:0px !important;\n}\n.main-content{\npadding:0px;\n}\n.px-5.pt-0.pb-5.border {\n    background: #fff;\n}\n</style>",
+            "code": "<style>\n.shopify-section {\n    background: #EFE6DF;\nmargin:0px !important;\n}\n.main-content{\npadding:0px;\n}\n.px-5.pt-0.pb-5.border {\n    background: #fff;\nbox-shadow:0px 0px 30px #00000029\n}\n.list-unstyled {\n    padding-left: 0;\n    list-style: none;\n    text-align: center;\n}\n</style>",
             "width": "100%",
             "align": "auto"
           }
