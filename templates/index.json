@@ -94,12 +94,15 @@
         "feature_NcPtxM",
         "feature_Vy4VNT"
       ],
+      "custom_css": [
+        "h3 {margin-bottom: 30px;}"
+      ],
       "name": "Mivi Skincare - Lista con imagen",
       "settings": {
         "image_bg": "shopify://shop_images/bg-porque_elegir_mivi.png",
         "bg_color": "#ffffff",
         "image": "shopify://shop_images/img-porque_elegir_mivi_medica_skin_care.png",
-        "height_image": 500,
+        "height_image": 800,
         "heading": "¿Por qué elegir Mivi Medical Skincare?",
         "typeHeader": "h3"
       }
