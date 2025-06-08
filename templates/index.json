@@ -145,7 +145,7 @@
       "name": "Logo carousel",
       "settings": {
         "animation": "fade-up",
-        "paddingsection": "50px 0px 50px 0px",
+        "paddingsection": "50px 0px 100px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
@@ -163,11 +163,63 @@
         "slidescroll": 1,
         "rows": "1"
       }
+    },
+    "product_tab_HRrtKk": {
+      "type": "product-tab",
+      "blocks": {
+        "collection_mqC86D": {
+          "type": "collection",
+          "settings": {
+            "title": "Nuevo",
+            "collection": "frontpage"
+          }
+        },
+        "collection_FBa469": {
+          "type": "collection",
+          "settings": {
+            "title": "MÁS VENDIDO",
+            "collection": "dermatologico"
+          }
+        },
+        "collection_UrKED8": {
+          "type": "collection",
+          "settings": {
+            "title": "PROMOCIONES",
+            "collection": "tratamientos"
+          }
+        }
+      },
+      "block_order": [
+        "collection_mqC86D",
+        "collection_FBa469",
+        "collection_UrKED8"
+      ],
+      "name": "Product tab",
+      "settings": {
+        "animation": "fade-up",
+        "paddingsection": "80px 0px 80px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "bgsection": "#efe6df",
+        "setwidth": "container",
+        "title_top": "",
+        "title": "Los favoritos de todos",
+        "des": "",
+        "arrows": true,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "rows": "1",
+        "limit": 10,
+        "show": 3
+      }
     }
   },
   "order": [
     "featured_collections_QKWwcg",
     "image_icon_text_9NcX4y",
-    "brand_carousel_i9JYeg"
+    "brand_carousel_i9JYeg",
+    "product_tab_HRrtKk"
   ]
 }
