@@ -291,21 +291,48 @@
       "name": "Testimonials",
       "settings": {
         "animation": "",
-        "paddingsection": "0px 0px 0px 0px",
+        "paddingsection": "80px 0px 80px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#fefefe",
-        "title_top": "Sub Title Top",
-        "title": "User reviews",
+        "title_top": "",
+        "title": "Lo que nuestros clientes dicen",
         "des": "",
         "setwidth": "container",
-        "aligntext": "text-center",
+        "aligntext": "text-left",
         "show": 3,
         "arrows": false,
         "draggable": true,
         "dots": true,
         "infinite": true
+      }
+    },
+    "featured_articles_JyDr7A": {
+      "type": "featured-articles",
+      "name": "Blog posts",
+      "settings": {
+        "animation": "",
+        "paddingsection": "100px 0px 100px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#efe6df",
+        "rangebg": 0,
+        "bgbefore": "#efe6df",
+        "title_top": "",
+        "title": "Nuestro Blog",
+        "des": "Cada piel tiene su propia historia",
+        "blog": "noticias",
+        "setwidth": "container",
+        "arrows": true,
+        "draggable": true,
+        "dots": true,
+        "infinite": true,
+        "rows": "1",
+        "limit": 5,
+        "show": 3
       }
     }
   },
@@ -315,6 +342,7 @@
     "brand_carousel_i9JYeg",
     "product_tab_HRrtKk",
     "image_content_2_AqTttr",
-    "quotes_iTJHXK"
+    "quotes_iTJHXK",
+    "featured_articles_JyDr7A"
   ]
 }
