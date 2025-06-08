@@ -72,7 +72,7 @@
         "html_pUkHa7": {
           "type": "html",
           "settings": {
-            "code": "<style>\n.shopify-section{\nbackground:#EFE6DF;\n}\n.main-content{\npadding:0px !important;\n}\n</style>",
+            "code": "<style>\n.shopify-section{\nbackground:#EFE6DF;\n}\n.main-content{\npadding:0px !important;\n}\n.row.product-single {\n    padding-top: 80px;\n}\n</style>",
             "width": "100%",
             "align": "auto"
           }
