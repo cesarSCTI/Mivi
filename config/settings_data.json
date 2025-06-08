@@ -273,7 +273,7 @@
     "enable_countdown_page": true,
     "enable_countdown_card": true,
     "enable_compare": true,
-    "enable_wishlsit": true,
+    "enable_wishlsit": false,
     "page_wishlist": "wishlist",
     "cookie_enable": true,
     "cookie_message": "This website uses cookies to ensure you get the best experience on our website.",
@@ -4707,7 +4707,7 @@
     "custom_css": [
       ".product-card__info {background: #ead8ca;}",
       "a.product-card__name {font-weight: 600;}",
-      ".product-card img {height: 300px; object-fit: contain; background:#fff;}",
+      ".product-card img {height: 300px; object-fit: contain; background: #fff;}",
       ".main-content {padding: 0px;}",
       ".pagination.js-pagination {padding-bottom: 40px;}"
     ]
