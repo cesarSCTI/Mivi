@@ -111,39 +111,35 @@
     "brand_carousel_i9JYeg": {
       "type": "brand-carousel",
       "blocks": {
+        "logo_ARnktq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_mesoestetic.png",
+            "link": ""
+          }
+        },
         "logo_j8Y74A": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/logo_germaine_de_capuccini.png",
             "link": ""
           }
         },
-        "logo_VnWrQd": {
+        "logo_JHxdgf": {
           "type": "logo",
           "settings": {
-            "link": ""
-          }
-        },
-        "logo_GtypFF": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_9DdVAy": {
-          "type": "logo",
-          "settings": {
+            "image": "shopify://shop_images/logo_GUINOT.png",
             "link": ""
           }
         }
       },
       "block_order": [
+        "logo_ARnktq",
         "logo_j8Y74A",
-        "logo_VnWrQd",
-        "logo_GtypFF",
-        "logo_9DdVAy"
+        "logo_JHxdgf"
       ],
       "custom_css": [
-        ".text-center{margin-bottom: 50px; color:#fff;}"
+        ".text-center {margin-bottom: 50px; color: #fff;}"
       ],
       "name": "Logo carousel",
       "settings": {

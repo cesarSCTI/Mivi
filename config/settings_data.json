@@ -51,6 +51,7 @@
     "font_family3_google": "Poppins",
     "h6_font_size": 16,
     "base_size": 16,
+    "letter_spacing_sub": 0.1,
     "main_linklist": "main-menu",
     "menu_label_text": "#fff",
     "menu_label_new": "#ff7143",
