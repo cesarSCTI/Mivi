@@ -72,7 +72,7 @@
         "image_x8x7Je"
       ],
       "custom_css": [
-        ".row > .col-lg-4:nth-child(1) img {max-height:400px; object-fit: contain;}"
+        ".row > .col-lg-4:nth-child(1) img {max-height: 400px; object-fit: contain;}"
       ],
       "settings": {
         "enablesection": true,
@@ -95,32 +95,33 @@
         "1598192983243": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"text-center\">\n<h2>400+</h2>\n<p>Sales on First Month</p>\n</div>",
+            "code": "<img height=\"70\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<br><br>\n<h3>\nCreemos en una piel saludable, no perfecta.</h3>",
             "width": "33%",
-            "align": "auto"
+            "align": "center"
+          }
+        },
+        "image_J7cTU4": {
+          "type": "image",
+          "settings": {
+            "width": "33%",
+            "align": "auto",
+            "image": "shopify://shop_images/img-creemos_en_una_piel_saludable.png",
+            "image_link": ""
           }
         },
         "1598193112425": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"text-center\">\n<h2>1 MILLION +</h2>\n<p>Web Pages Created by Users</p>\n</div>",
+            "code": "<div class=\"\">\n<b>Diferenciadores:</b>\n\n<br><br>\n· Nuestro compromiso es ofrecerte productos que cuidan tu piel con responsabilidad. \n<br><br>\n\n· Fórmulas versátiles utilizadas tanto en entornos profesionales como en rutinas de cuidado personal. \n<br><br>\n· Sin marketing engañoso; Lo que ves, es lo que obtienes\n</div>",
             "width": "33%",
-            "align": "auto"
-          }
-        },
-        "1598193144586": {
-          "type": "html",
-          "settings": {
-            "code": "<div class=\"text-center\">\n<h2>500 K +</h2>\n<p>Customers Served Around The World</p>\n</div>",
-            "width": "33%",
-            "align": "auto"
+            "align": "center"
           }
         }
       },
       "block_order": [
         "1598192983243",
-        "1598193112425",
-        "1598193144586"
+        "image_J7cTU4",
+        "1598193112425"
       ],
       "settings": {
         "enablesection": true,
@@ -129,7 +130,7 @@
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
-        "bgsection": "#f8ede7",
+        "bgsection": "#efe6df",
         "title_top": "",
         "title": "",
         "des": "",
