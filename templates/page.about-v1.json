@@ -51,7 +51,7 @@
         "1598192428049": {
           "type": "html",
           "settings": {
-            "code": "<img height=\"60\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care-horizontal.png?v=1749593527\">\n<br><br>\nNace de la pasión por el bienestar de la piel y el compromiso con la ciencia cosmética. Somos una clínica especializada en aparatología estética, enfocada en el cuidado avanzado de la piel a través de tecnología de vanguardia. \n<br><br>\nAdemás, ofrecemos una línea seleccionada de productos de alta calidad, formulados para acompañar el cuidado diario de todo tipo de piel. Combinamos experiencia clínica con innovación cosmética para brindar soluciones integrales, seguras y confiables.",
+            "code": "<br>\n<img height=\"60\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care-horizontal.png?v=1749593527\">\n<br><br>\nNace de la pasión por el bienestar de la piel y el compromiso con la ciencia cosmética. Somos una clínica especializada en aparatología estética, enfocada en el cuidado avanzado de la piel a través de tecnología de vanguardia. \n<br><br>\nAdemás, ofrecemos una línea seleccionada de productos de alta calidad, formulados para acompañar el cuidado diario de todo tipo de piel. Combinamos experiencia clínica con innovación cosmética para brindar soluciones integrales, seguras y confiables.\n<br><br>",
             "width": "33%",
             "align": "center"
           }
@@ -78,7 +78,7 @@
         "enablesection": true,
         "animation": "fade-up",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingmobile": "60px 20px 60px 20px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#fefefe",
@@ -95,7 +95,7 @@
         "1598192983243": {
           "type": "html",
           "settings": {
-            "code": "<center><img height=\"80\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/icono_MIVI.png?v=1748915433\"></center>\n<br>\n<h3>\nCreemos en una piel saludable, no perfecta.</h3>",
+            "code": "<center><img height=\"80\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/icono_MIVI.png?v=1748915433\"></center>\n<br>\n<h3>\nCreemos en una piel saludable, no perfecta.</h3>\n<br>",
             "width": "33%",
             "align": "center"
           }
@@ -112,7 +112,7 @@
         "1598193112425": {
           "type": "html",
           "settings": {
-            "code": "<div class=\"\">\n<b>Diferenciadores:</b>\n<br><br>\n· Nuestro compromiso es ofrecerte productos que cuidan tu piel con responsabilidad. \n<br><br>\n· Fórmulas versátiles utilizadas tanto en entornos profesionales como en rutinas de cuidado personal. \n<br><br>\n· Sin marketing engañoso; Lo que ves, es lo que obtienes\n</div>",
+            "code": "<div class=\"\">\n<br>\n<b>Diferenciadores:</b>\n<br><br>\n· Nuestro compromiso es ofrecerte productos que cuidan tu piel con responsabilidad. \n<br><br>\n· Fórmulas versátiles utilizadas tanto en entornos profesionales como en rutinas de cuidado personal. \n<br><br>\n· Sin marketing engañoso; Lo que ves, es lo que obtienes\n</div>",
             "width": "33%",
             "align": "center"
           }
