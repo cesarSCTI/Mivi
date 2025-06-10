@@ -185,21 +185,21 @@
           "type": "collection",
           "settings": {
             "title": "Nuevo",
-            "collection": "frontpage"
+            "collection": "tratamientos"
           }
         },
         "collection_FBa469": {
           "type": "collection",
           "settings": {
             "title": "MÁS VENDIDO",
-            "collection": "dermatologico"
+            "collection": "lociones-y-humectantes"
           }
         },
         "collection_UrKED8": {
           "type": "collection",
           "settings": {
             "title": "PROMOCIONES",
-            "collection": "tratamientos"
+            "collection": "limpieza-facial"
           }
         }
       },
@@ -208,10 +208,13 @@
         "collection_FBa469",
         "collection_UrKED8"
       ],
+      "custom_css": [
+        ".nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active {background-color: #efe6df !important;}"
+      ],
       "name": "Product tab",
       "settings": {
         "animation": "fade-up",
-        "paddingsection": "80px 0px 80px 0px",
+        "paddingsection": "100px 0px 80px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
@@ -220,44 +223,38 @@
         "title_top": "",
         "title": "Los favoritos de todos",
         "des": "",
-        "arrows": true,
-        "draggable": true,
-        "dots": true,
+        "arrows": false,
+        "draggable": false,
+        "dots": false,
         "infinite": true,
         "rows": "1",
-        "limit": 10,
+        "limit": 3,
         "show": 3
       }
     },
-    "image_content_2_AqTttr": {
-      "type": "image-content-2",
-      "blocks": {
-        "image_block_KnchRe": {
-          "type": "image_block",
-          "settings": {
-            "image": "shopify://shop_images/vst_prev_mivi_redes_sc.png",
-            "linkimg": "",
-            "title": "",
-            "text": "",
-            "show_reverse": false
-          }
-        }
-      },
-      "block_order": [
-        "image_block_KnchRe"
-      ],
-      "name": "Image with text Style 2",
+    "backgroundvideo_BnYCjN": {
+      "type": "backgroundvideo",
+      "name": "Background Video",
       "settings": {
-        "animation": "",
+        "animation": "fade",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
-        "setwidth": "container",
-        "align_center": true,
-        "setbig": "left",
-        "width": "12"
+        "setwidth": "container-fluid",
+        "align": "center",
+        "padding_desktop": 200,
+        "padding_mobile": 80,
+        "bg_box": "#ffffff",
+        "opacity_bgbox": 0.6,
+        "bg_overlay": "#000",
+        "opacity_bg_overlay": 0,
+        "title": "¿Lista para cuidar tu piel como una profesional?",
+        "title_color": "#000000",
+        "subtext": "Conoce nuestros productos inspirados en el cuidado dermatológico y profesional.",
+        "subtitle_color": "#000000",
+        "button": "Compra ahora",
+        "link": "shopify://collections/all",
+        "link_video": ""
       }
     },
     "quotes_iTJHXK": {
@@ -355,7 +352,7 @@
     "image_icon_text_9NcX4y",
     "brand_carousel_i9JYeg",
     "product_tab_HRrtKk",
-    "image_content_2_AqTttr",
+    "backgroundvideo_BnYCjN",
     "quotes_iTJHXK",
     "featured_articles_JyDr7A"
   ]
