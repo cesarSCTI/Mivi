@@ -37,7 +37,7 @@
         "banner_tNceXa"
       ],
       "custom_css": [
-        "h2{background: #efe6dfab; padding: 10px 20px;}"
+        "h2 {background: #efe6dfab; padding: 10px 20px;}"
       ],
       "name": "Grid banner",
       "settings": {
@@ -58,10 +58,12 @@
     },
     "main": {
       "type": "blog-template",
-      "custom_css": [],
+      "custom_css": [
+        ".blog__item--3 .content-block__meta .blog__date {color: #fff !important; font-size: 70%; font-weight: 500;}"
+      ],
       "settings": {
         "blogpage": "blog-1",
-        "limit": 8,
+        "limit": 16,
         "sidebar_enable": true,
         "sidebar_position": "right",
         "item_width": "grid-item-3"
@@ -69,10 +71,13 @@
     },
     "newsletter_P7bAfe": {
       "type": "newsletter",
+      "custom_css": [
+        ".section-title-1 > span {position: relative; font-size: 45px !important;}"
+      ],
       "name": "Newsletter",
       "settings": {
         "animation": "",
-        "paddingsection": "100px 0px 0px 100px",
+        "paddingsection": "50px 0px 0px 100px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
@@ -80,7 +85,7 @@
         "title_top": "",
         "title": "¿Quieres una piel radiante todo el año?",
         "des": "Suscríbete a nuestro newsletter y recibe tips, novedades en cosmética clínica y promociones exclusivas directo en tu correo.",
-        "setwidth": "container",
+        "setwidth": "full",
         "colorborder": "#000000"
       }
     },
