@@ -89,7 +89,7 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/icono-usuarios_mejoras_MIVI.png",
-            "text": "Usuarios notan mejoras en pocas semanas. *Resultados pueden variar según el tipo de piel.",
+            "text": "Usuarios notan mejoras en pocas semanas.<br> *Resultados pueden variar según el tipo de piel.",
             "height_icon": 64
           }
         }
@@ -101,17 +101,17 @@
         "feature_Vy4VNT"
       ],
       "custom_css": [
-        "h3 {margin-bottom: 30px;}",
-        ".mivi-skincare-section {padding: 100px 0px !important;}"
+        "h2 {margin-bottom: 50px; font-size: 45px;}",
+        ".mivi-skincare-section {padding: 90px 0px !important;}"
       ],
       "name": "Mivi Skincare - Lista con imagen",
       "settings": {
         "image_bg": "shopify://shop_images/bg-porque_elegir_mivi.png",
         "bg_color": "#ffffff",
         "image": "shopify://shop_images/img-porque_elegir_mivi_medica_skin_care.png",
-        "height_image": 800,
+        "height_image": 900,
         "heading": "¿Por qué elegir Mivi Medical Skincare?",
-        "typeHeader": "h3"
+        "typeHeader": "h2"
       }
     },
     "brand_carousel_i9JYeg": {
@@ -137,35 +137,43 @@
             "image": "shopify://shop_images/logo_GUINOT.png",
             "link": ""
           }
+        },
+        "logo_8XzGXB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/logo_colorescience.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "logo_ARnktq",
         "logo_j8Y74A",
-        "logo_JHxdgf"
+        "logo_JHxdgf",
+        "logo_8XzGXB"
       ],
       "custom_css": [
-        ".text-center {margin-bottom: 50px; color: #fff;}",
+        ".text-center {margin-bottom: 50px; color: #fff; text-transform: none !important;}",
         "img {height: 90px; object-fit: contain;}"
       ],
       "name": "Logo carousel",
       "settings": {
         "animation": "fade-up",
-        "paddingsection": "50px 0px 100px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingsection": "60px 0px 60px 0px",
+        "paddingmobile": "30px 0px 30px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#000000",
         "title_top": "En Mivi Medical ofrecemos productos de marcas reconocidas en el ámbito de la cosmética",
         "title": "",
         "des": "",
-        "setwidth": "full",
+        "setwidth": "container-fluid",
         "grayscale": false,
         "arrows": false,
-        "draggable": true,
-        "dots": true,
-        "infinite": true,
-        "slidestoshow": 3,
+        "draggable": false,
+        "dots": false,
+        "infinite": false,
+        "slidestoshow": 4,
         "slidescroll": 1,
         "rows": "1"
       }
