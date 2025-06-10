@@ -456,41 +456,41 @@
           "1560580908623": {
             "type": "product",
             "settings": {
-              "product": "emerald-deep-moisture-glow-oil",
-              "local": "in Blumenau, Brazil",
-              "time": "About 50 minutes ago"
+              "product": "age-element-anti-wrinkle-concentrate",
+              "local": "en CDMX",
+              "time": "Hace unos 50 minutos"
             }
           },
           "1560581969631": {
             "type": "product",
             "settings": {
-              "product": "orchid-facial-oil",
-              "local": "in Bauru, Brazil",
-              "time": "about 35 minutes ago"
+              "product": "ampolletas-vitamina-c",
+              "local": "en Jalisco",
+              "time": "Hace unos 35 minutos"
             }
           },
           "1560582020821": {
             "type": "product",
             "settings": {
-              "product": "better-naked-palette",
-              "local": "in Blackburn, UK",
-              "time": "about 21 minutes ago"
+              "product": "crema-vitamina-c",
+              "local": "en Querétaro",
+              "time": "Hace unos 21 minutos"
             }
           },
           "1590318690573": {
             "type": "product",
             "settings": {
-              "product": "hydraglow",
-              "local": "in Blackburn, UK",
-              "time": "about 21 minutes ago"
+              "product": "hydra-summum-serum",
+              "local": "en Cancún",
+              "time": "Hace unos 21 minutos"
             }
           },
           "1597367617767": {
             "type": "product",
             "settings": {
-              "product": "cover-up-cream-foundation",
-              "local": "in Blackburn, UK",
-              "time": "about 21 minutes ago"
+              "product": "lift-in-crema",
+              "local": "en Monterrey",
+              "time": "Hace unos 60 minutos"
             }
           }
         },
@@ -503,8 +503,8 @@
         ],
         "settings": {
           "enable": true,
-          "duration": 15,
-          "text": "Someone recently bought"
+          "duration": 20,
+          "text": "Alguien compró recientemente"
         }
       },
       "recently-viewed": {
