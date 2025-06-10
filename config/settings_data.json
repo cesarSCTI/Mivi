@@ -14,7 +14,7 @@
     "footer": "footer-1",
     "pnewsletter": "pnewsletter-3",
     "productgrid": "product-3",
-    "sectionheading": "heading-0",
+    "sectionheading": "heading-1",
     "collectiongrid": "collection-1",
     "bloggrid": "blog-3",
     "loading": "grow",
@@ -511,8 +511,8 @@
         "type": "recently-viewed",
         "settings": {
           "enable": true,
-          "title": "Recently viewed",
-          "limit": 6
+          "title": "Visto Recientemente",
+          "limit": 4
         }
       },
       "list-collections-template": {
@@ -598,7 +598,7 @@
             "type": "newsletter",
             "settings": {
               "title": "Mantente informado",
-              "subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+              "subheading": "<p>Promociones, nuevos productos y exclusivos. </p>",
               "enablesocial": false,
               "width": "33%"
             }
@@ -620,10 +620,10 @@
           "title": "#ffffff",
           "text_copy": "#ffffff",
           "footer_font_family": "--g-font-1",
-          "footer_font_size_title": 16,
-          "footer_font_weight": "400",
+          "footer_font_size_title": 22,
+          "footer_font_weight": "600",
           "footer_spacing": 0,
-          "footer_typetext": "uppercase",
+          "footer_typetext": "capitalize",
           "payment_info": "img",
           "imgpayment": "shopify://shop_images/pagos.png"
         }

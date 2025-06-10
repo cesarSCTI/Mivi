@@ -9,47 +9,53 @@
  */
 {
   "sections": {
-    "featured_collections_QKWwcg": {
-      "type": "featured-collections",
+    "featured_collections_5_kgkbYM": {
+      "type": "featured-collections-5",
       "blocks": {
-        "collection_tRTBwt": {
+        "collection_JnEpEm": {
           "type": "collection",
           "settings": {
-            "collection": "lociones-y-humectantes"
+            "collection": "lociones-y-humectantes",
+            "image": "shopify://shop_images/img-categoria-lociones_y_humectantes.png"
           }
         },
-        "collection_CaU93e": {
+        "collection_ggmkYb": {
           "type": "collection",
           "settings": {
-            "collection": "anti-edad"
+            "collection": "anti-edad",
+            "image": "shopify://shop_images/img-categoria-anti_edad.png"
           }
         },
-        "collection_cjUFKx": {
+        "collection_xcDbFU": {
           "type": "collection",
           "settings": {
-            "collection": "protector-solar"
+            "collection": "protector-solar",
+            "image": "shopify://shop_images/img-categoria-protector_solar.png"
           }
         }
       },
       "block_order": [
-        "collection_tRTBwt",
-        "collection_CaU93e",
-        "collection_cjUFKx"
+        "collection_JnEpEm",
+        "collection_ggmkYb",
+        "collection_xcDbFU"
       ],
-      "name": "Collection list",
+      "name": "Collection list Style 4",
       "settings": {
         "animation": "fade",
         "paddingsection": "100px 0px 100px 0px",
+        "paddingmobile": "40px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "1",
         "bgsection": "#efe6df",
+        "enable_box": true,
+        "bg_box": "#ead8ca",
+        "enable_items": false,
         "setwidth": "full",
         "title_top": "",
         "title": "Encuentra tu producto ideal",
         "des": "",
-        "arrows": false,
-        "draggable": true,
-        "dots": true,
-        "infinite": true
+        "width": "col-lg-4"
       }
     },
     "image_icon_text_9NcX4y": {
@@ -337,7 +343,7 @@
     }
   },
   "order": [
-    "featured_collections_QKWwcg",
+    "featured_collections_5_kgkbYM",
     "image_icon_text_9NcX4y",
     "brand_carousel_i9JYeg",
     "product_tab_HRrtKk",
