@@ -102,7 +102,8 @@
       ],
       "custom_css": [
         "h2 {margin-bottom: 50px; font-size: 45px;}",
-        ".mivi-skincare-section {padding: 90px 0px !important;}"
+        ".mivi-skincare-section {padding: 90px 0px !important;}",
+        "@media only screen and (max-width: 768px) {.mr-3, .mx-3 {height: 60px !important; }}"
       ],
       "name": "Mivi Skincare - Lista con imagen",
       "settings": {
@@ -170,11 +171,11 @@
         "setwidth": "container-fluid",
         "grayscale": false,
         "arrows": false,
-        "draggable": false,
+        "draggable": true,
         "dots": false,
-        "infinite": false,
+        "infinite": true,
         "slidestoshow": 4,
-        "slidescroll": 1,
+        "slidescroll": 4,
         "rows": "1"
       }
     },
@@ -224,7 +225,7 @@
         "title": "Los favoritos de todos",
         "des": "",
         "arrows": false,
-        "draggable": false,
+        "draggable": true,
         "dots": false,
         "infinite": true,
         "rows": "1",
@@ -263,34 +264,34 @@
         "quote_a4ccgY": {
           "type": "quote",
           "settings": {
-            "title": "Comment",
-            "avatar": "shopify://shop_images/fernanda_m.png",
-            "author": "Author's name",
-            "info": "",
+            "title": "",
+            "avatar": "shopify://shop_images/claudia_R.png",
+            "author": "Claudia R.",
+            "info": "Guadalajara, Jal.",
             "rate": 5,
-            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            "quote": "“Me encanta saber que estoy usando productos de marcas reconocidas y con respaldo profesional. Desde que conocí Mivi Medical, mi rutina de skincare es más fácil y me siento más segura con lo que aplico en mi piel.”"
           }
         },
         "quote_6CGDTm": {
           "type": "quote",
           "settings": {
-            "title": "Comment",
-            "avatar": "shopify://shop_images/claudia_R.png",
-            "author": "Author's name",
-            "info": "",
+            "title": "",
+            "avatar": "shopify://shop_images/fernanda_m.png",
+            "author": "Fernanda M.",
+            "info": "CDMX",
             "rate": 5,
-            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            "quote": "“Recibí mi pedido súper rápido y el empaque venía perfecto. Además, me orientaron sobre qué producto era mejor para mi tipo de piel. Excelente atención y calidad.”"
           }
         },
         "quote_kxahxe": {
           "type": "quote",
           "settings": {
-            "title": "Comment",
+            "title": "",
             "avatar": "shopify://shop_images/Luica_T.png",
-            "author": "Author's name",
-            "info": "",
+            "author": "Lucía T.",
+            "info": "Monterrey, N.L.",
             "rate": 5,
-            "quote": "Add customer reviews and testimonials to showcase your store’s happy customers."
+            "quote": "“Tenía muchas dudas antes de comprar, pero el equipo de Mivi me ayudó paso a paso. Me gustó que manejan solo marcas confiables. ¡Ya hice mi segunda compra!”"
           }
         }
       },
@@ -310,17 +311,20 @@
         "title_top": "",
         "title": "Lo que nuestros clientes dicen",
         "des": "",
-        "setwidth": "container",
+        "setwidth": "container-fluid",
         "aligntext": "text-left",
         "show": 3,
         "arrows": false,
         "draggable": true,
-        "dots": true,
+        "dots": false,
         "infinite": true
       }
     },
     "featured_articles_JyDr7A": {
       "type": "featured-articles",
+      "custom_css": [
+        ".blog__item--3 .content-block__meta .blog__date {color: #fff !important; font-size: 70%; font-weight: 500;}"
+      ],
       "name": "Blog posts",
       "settings": {
         "animation": "",
@@ -337,12 +341,12 @@
         "des": "Cada piel tiene su propia historia",
         "blog": "noticias",
         "setwidth": "container",
-        "arrows": true,
+        "arrows": false,
         "draggable": true,
-        "dots": true,
+        "dots": false,
         "infinite": true,
         "rows": "1",
-        "limit": 5,
+        "limit": 3,
         "show": 3
       }
     }
