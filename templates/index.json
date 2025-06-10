@@ -153,7 +153,7 @@
         "logo_8XzGXB"
       ],
       "custom_css": [
-        ".text-center {margin-bottom: 50px; color: #fff; text-transform: none !important;}",
+        ".text-center {margin-bottom: 50px; color: #fff; text-transform: none !important; font-size: 20px !important; font-weight: normal !important;}",
         "img {height: 90px; object-fit: contain;}"
       ],
       "name": "Logo carousel",
