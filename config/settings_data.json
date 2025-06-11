@@ -200,7 +200,7 @@
     "color_breadcrumbs_active": "#193a43",
     "bg_breadcrumb": "#f4f1eb",
     "limit_ranger": 0,
-    "show_title_breadcumbs": false,
+    "show_title_breadcumbs": true,
     "align_bread": "center",
     "style_breadcrumb": "style_1",
     "layout_bread": "container",
