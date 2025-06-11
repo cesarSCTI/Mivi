@@ -429,5 +429,10 @@
   "video": {
     "play": "Play video",
     "close": "Stop video"
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": "Todos los derechos reservados"
+    }
   }
 }
