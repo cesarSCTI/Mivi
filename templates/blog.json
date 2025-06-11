@@ -37,7 +37,7 @@
         "banner_tNceXa"
       ],
       "custom_css": [
-        "h2 {background: #efe6dfab; padding: 10px 20px;}"
+        "h2 {background: #efe6dfab; padding: 10px 10px;}"
       ],
       "name": "Grid banner",
       "settings": {
@@ -59,7 +59,8 @@
     "main": {
       "type": "blog-template",
       "custom_css": [
-        ".blog__item--3 .content-block__meta .blog__date {color: #fff !important; font-size: 70%; font-weight: 500;}"
+        ".blog__item--3 .content-block__meta .blog__date {color: #fff !important; font-size: 70%; font-weight: 500;}",
+        "@media only screen and (max-width: 768px) {.blog__item--3 .content-block__meta {padding: 5px !important; } .blog__title-link {font-size: 14px !important; margin-bottom: 0px !important;} .blog__item--3 .content-block__meta .blog__date {font-size: 50% !important;}}"
       ],
       "settings": {
         "blogpage": "blog-1",
