@@ -62,10 +62,10 @@
         "1587569402997": {
           "type": "address",
           "settings": {
-            "store_addess": "<div class=\"mt-5\">\n<img height=\"130\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<br><br>\nEscríbenos via correo: \n\n</div>",
+            "store_addess": "<div class=\"mt-5\">\n<img height=\"120\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<br><br>\n<b>Llámanos si tienes dudas:</b><br>\n+52 33 1444 8013<br><br>\n<b>o escríbenos via correo:</b> <br>\n<a href=\"mailto:mivi.med.spa@gmail.com\">mivi.med.spa@gmail.com</a>\n</div>",
             "contact_addess": "",
-            "contact_phone": "+52 33 1444 8013",
-            "contact_mail": "mivi.med.spa@gmail.com"
+            "contact_phone": "",
+            "contact_mail": ""
           }
         }
       },
@@ -103,11 +103,11 @@
       "settings": {
         "animation": "",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingmobile": "40px 0px 30px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "zindex": "0",
-        "bgsection": "#fefefe",
+        "bgsection": "#efe6df",
         "rangebg": 0,
         "bgbefore": "rgba(0,0,0,0)",
         "title_top": "",
