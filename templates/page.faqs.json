@@ -18,9 +18,9 @@
             "image": "shopify://shop_images/bg-mivi_medical_general.png",
             "width": "12",
             "description": "<h2 class=\"mb-2\">Preguntas Frecuentes</h2>",
-            "bg_color": "#fefefe",
+            "bg_color": "#efe6df",
             "colordef": "#000000",
-            "bg_colorhover": "#000000",
+            "bg_colorhover": "#efe6df",
             "colorhover": "#000000",
             "opacity_bg": 0,
             "max-width": 620,
@@ -37,13 +37,13 @@
         "banner_URD8qy"
       ],
       "custom_css": [
-        "h2{background: #efe6dfab; padding: 10px 20px;}"
+        "h2 {background: #efe6dfab; padding: 10px 10px;}"
       ],
       "name": "Grid banner",
       "settings": {
         "animation": "",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingmobile": "0px 0px 30px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
@@ -63,49 +63,49 @@
           "type": "faq",
           "settings": {
             "title": "¿Los productos Mivi Medical son dermatológicamente probados?",
-            "answer": "Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between."
+            "answer": "Sí. Todos nuestros productos están desarrollados con respaldo clínico, formulados por especialistas en cuidado de la piel y probados dermatológicamente."
           }
         },
         "1562290853274": {
           "type": "faq",
           "settings": {
             "title": "¿Puedo usar sus productos si tengo piel sensible?",
-            "answer": "When you buy this theme you get full access to our comprehensive and easy to follow instructions on setting up the theme for your store.\nIf you’re looking for more generic Shopify store setup instructions, there are plenty of resources available on Shopify’s own website."
+            "answer": "Claro. Muchos de nuestros productos están diseñados específicamente para piel sensible, sin fragancias ni ingredientes agresivos. Te recomendamos revisar la ficha de cada producto o escribirnos si necesitas orientación."
           }
         },
         "1563634068295": {
           "type": "faq",
           "settings": {
             "title": "¿Hacen envíos a todo México?",
-            "answer": "We’ve designed the theme to be as flexible and configurable as possible but also made it simple to use. You would only need a designer/developer if you wanted to custom code something that the theme doesn’t do natively."
+            "answer": "Sí, realizamos envíos a toda la República Mexicana. El tiempo de entrega varía entre 2 y 5 días hábiles, dependiendo de tu ubicación."
           }
         },
         "1562290837129": {
           "type": "faq",
           "settings": {
             "title": "¿Cuáles son las formas de pago disponibles?",
-            "answer": "We only sell this theme at Themeforest, you can buy there. If you need a trial version, please contact <a href=\"mailto:shopifytemplate@gmail.com\">shopifytemplate@gmail.com</a>"
+            "answer": "Aceptamos pagos con tarjeta de crédito y débito, transferencias y también puedes pagar en efectivo a través de tiendas OXXO."
           }
         },
         "faq_kDNELP": {
           "type": "faq",
           "settings": {
             "title": "¿Qué pasa si tengo una reacción al usar un producto?",
-            "answer": "respuesta"
+            "answer": "Si presentas alguna reacción al utilizar nuestros productos, te recomendamos suspender su uso y consultar a un profesional de la salud. Puedes escribirnos para recibir atención personalizada."
           }
         },
         "1563634113380": {
           "type": "faq",
           "settings": {
             "title": "¿Puedo comprar si no soy profesional de la salud o la belleza?",
-            "answer": "Yes, unlike other themes, you get free upgrades and support for 6-months and you only pay a one-time fee, unless stated otherwise."
+            "answer": "Por supuesto. Nuestra tienda en línea está abierta para todo público y nuestros productos son seguros para uso personal, sin necesidad de receta."
           }
         },
         "1563634164478": {
           "type": "faq",
           "settings": {
             "title": "¿Cómo sé qué producto es el adecuado para mi tipo de piel?",
-            "answer": "Yes, please contact us via email shopifytemplate@gmail.com"
+            "answer": "Puedes usar nuestros filtros por tipo de piel o necesidad. También puedes enviarnos un mensaje y uno de nuestros asesores te guiará sin costo."
           }
         }
       },
@@ -120,16 +120,17 @@
       ],
       "custom_css": [
         "form {display: none;}",
-        ".layout-2 .faq-question:after {background: #e3a3a3;}"
+        ".layout-2 .faq-question:after {background: #e3a3a3;}",
+        ".layout-2 .faq-question {font-size: 22px !important; font-family: El Messiri !important;}"
       ],
       "settings": {
-        "paddingsection": "80px 0px 80px 0px",
+        "paddingsection": "50px 0px 80px 0px",
         "paddingmobile": "0px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "setwidth": "container",
         "heading": "",
-        "subheading": "",
+        "subheading": "<center><p style=\"font-size: 23px; margin-bottom: -30px;\">Resolvemos tus dudas para que compres con confianza</p></center>",
         "heading_faqs": "",
         "layout": "layout-2"
       }
@@ -159,7 +160,7 @@
         "zindex": "0",
         "bgsection": "#fefefe",
         "rangebg": 0,
-        "bgbefore": "transparent",
+        "bgbefore": "rgba(0,0,0,0)",
         "title_top": "",
         "title": "",
         "des": "",
