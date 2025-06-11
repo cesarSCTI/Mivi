@@ -12,7 +12,7 @@
     "product-grid": {
       "type": "collection-template-1",
       "custom_css": [
-        "h1{padding: 40px 0px;}"
+        "h1 {padding: 40px 0px;}"
       ],
       "settings": {
         "collection_width": "container",
@@ -26,7 +26,7 @@
         "enable_filtering": true,
         "enable_sorting": true,
         "filter_type": "vertical",
-        "enable_viewcolumn": true,
+        "enable_viewcolumn": false,
         "open_group": true,
         "enable_color": false,
         "type_color": false,
@@ -60,7 +60,7 @@
         "zindex": "0",
         "bgsection": "#fefefe",
         "rangebg": 0,
-        "bgbefore": "transparent",
+        "bgbefore": "rgba(0,0,0,0)",
         "title_top": "",
         "title": "",
         "des": "",
