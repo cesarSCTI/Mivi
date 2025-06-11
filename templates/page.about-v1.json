@@ -22,7 +22,7 @@
       "type": "image-content-3",
       "custom_css": [
         "h2 {font-size: 50px !important;}",
-        "@media only screen and (max-width: 768px) {h2 {font-size: 30px !important; } .contentimg-left .imgblock .imgblock-bg {left: 90px; right: auto; top: 70px; } .imgblock {padding-bottom: 55px !important; }}"
+        "@media only screen and (max-width: 768px) {h2 {font-size: 30px !important; } .contentimg-left .imgblock .imgblock-bg {left: 90px; right: auto; top: 70px; } .imgblock {padding-bottom: 50px !important; }}"
       ],
       "name": "Image with text Style 3",
       "settings": {
@@ -32,7 +32,7 @@
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
-        "des": "<img height=\"150\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<h2 style=\"margin-top:50px;\">Estética avanzada y formulaciones especializadas para el bienestar de tu piel.</h2>",
+        "des": "<br><img height=\"150\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<h2 style=\"margin-top:50px;\">Estética avanzada y formulaciones especializadas para el bienestar de tu piel.</h2>",
         "image": "shopify://shop_images/img-quien_es_mivi.png",
         "linkimg": "",
         "bgimage": "#ead8ca",
