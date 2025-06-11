@@ -84,7 +84,7 @@
         "paddingsection": "50px 0px 50px 0px",
         "paddingmobile": "20px 0px 20px 0px",
         "marginsection": "100px 0px 0px 0px",
-        "marginmobile": "0px 0px 0px 0px",
+        "marginmobile": "50px 0px 0px 0px",
         "bgsection": "#efe6df",
         "bgstyle": true,
         "bgbefore": "#ead8ca",
@@ -140,7 +140,7 @@
       "custom_css": [
         "h2 {margin-bottom: 50px; font-size: 45px;}",
         ".mivi-skincare-section {padding: 90px 0px !important;}",
-        "@media only screen and (max-width: 768px) {.mr-3, .mx-3 {height: 60px !important; }}"
+        "@media only screen and (max-width: 768px) {.mr-3, .mx-3 {height: 60px !important; } .mivi-skincare-section {padding: 40px 0px !important; }}"
       ],
       "name": "Mivi Skincare - Lista con imagen",
       "settings": {
@@ -222,8 +222,8 @@
         "collection_mqC86D": {
           "type": "collection",
           "settings": {
-            "title": "Tratamientos",
-            "collection": "tratamientos"
+            "title": "Maquillaje",
+            "collection": "maquillaje"
           }
         },
         "collection_FBa469": {
@@ -266,7 +266,7 @@
         "dots": false,
         "infinite": true,
         "rows": "1",
-        "limit": 3,
+        "limit": 4,
         "show": 3
       }
     },
