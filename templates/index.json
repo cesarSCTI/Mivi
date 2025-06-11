@@ -9,53 +9,90 @@
  */
 {
   "sections": {
-    "featured_collections_5_kgkbYM": {
-      "type": "featured-collections-5",
+    "grid_banner_6VnLjp": {
+      "type": "grid-banner",
       "blocks": {
-        "collection_JnEpEm": {
-          "type": "collection",
+        "banner_wrHken": {
+          "type": "banner",
           "settings": {
-            "collection": "lociones-y-humectantes",
-            "image": "shopify://shop_images/img-categoria-lociones_y_humectantes.png"
+            "image": "shopify://shop_images/img-categoria-lociones_y_humectantes.png",
+            "width": "4",
+            "description": "<br><h3 class=\"mb-2\">Lociones y humectantes</h3><br>",
+            "bg_color": "#ffffff",
+            "colordef": "#000000",
+            "bg_colorhover": "#000000",
+            "colorhover": "#ffffff",
+            "opacity_bg": 0.5,
+            "max-width": 290,
+            "button_text": "",
+            "button_icon": "",
+            "button_link": "shopify://collections/lociones-y-humectantes",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
           }
         },
-        "collection_ggmkYb": {
-          "type": "collection",
+        "banner_rQTURY": {
+          "type": "banner",
           "settings": {
-            "collection": "anti-edad",
-            "image": "shopify://shop_images/img-categoria-anti_edad.png"
+            "image": "shopify://shop_images/img-categoria-anti_edad.png",
+            "width": "4",
+            "description": "<br><h3 class=\"mb-2\">Anti-edad</h3><br>",
+            "bg_color": "#ffffff",
+            "colordef": "#000000",
+            "bg_colorhover": "#000000",
+            "colorhover": "#ffffff",
+            "opacity_bg": 0.5,
+            "max-width": 290,
+            "button_text": "",
+            "button_icon": "",
+            "button_link": "shopify://collections/anti-edad",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
           }
         },
-        "collection_xcDbFU": {
-          "type": "collection",
+        "banner_mh6wLe": {
+          "type": "banner",
           "settings": {
-            "collection": "protector-solar",
-            "image": "shopify://shop_images/img-categoria-protector_solar.png"
+            "image": "shopify://shop_images/img-categoria-protector_solar.png",
+            "width": "4",
+            "description": "<br>\n<h3 class=\"mb-2\">Protector solar</h3>\n<br>",
+            "bg_color": "#ffffff",
+            "colordef": "#000000",
+            "bg_colorhover": "#000000",
+            "colorhover": "#ffffff",
+            "opacity_bg": 0.5,
+            "max-width": 290,
+            "button_text": "",
+            "button_icon": "",
+            "button_link": "shopify://collections/protector-solar",
+            "vertical": "bottom",
+            "horizontal": "center",
+            "text_align": "center"
           }
         }
       },
       "block_order": [
-        "collection_JnEpEm",
-        "collection_ggmkYb",
-        "collection_xcDbFU"
+        "banner_wrHken",
+        "banner_rQTURY",
+        "banner_mh6wLe"
       ],
-      "name": "Collection list Style 4",
+      "name": "Grid banner",
       "settings": {
-        "animation": "fade",
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "40px 0px 40px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "animation": "fade-down",
+        "paddingsection": "50px 0px 50px 0px",
+        "paddingmobile": "20px 0px 20px 0px",
+        "marginsection": "100px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
-        "zindex": "1",
         "bgsection": "#efe6df",
-        "enable_box": true,
-        "bg_box": "#ead8ca",
-        "enable_items": false,
-        "setwidth": "full",
+        "bgstyle": true,
+        "bgbefore": "#ead8ca",
         "title_top": "",
         "title": "Encuentra tu producto ideal",
         "des": "",
-        "width": "col-lg-4"
+        "setwidth": "container-fluid",
+        "no_gutter": false
       }
     },
     "image_icon_text_9NcX4y": {
@@ -185,21 +222,21 @@
         "collection_mqC86D": {
           "type": "collection",
           "settings": {
-            "title": "Nuevo",
+            "title": "Tratamientos",
             "collection": "tratamientos"
           }
         },
         "collection_FBa469": {
           "type": "collection",
           "settings": {
-            "title": "MÁS VENDIDO",
-            "collection": "lociones-y-humectantes"
+            "title": "Dermatológico",
+            "collection": "dermatologico"
           }
         },
         "collection_UrKED8": {
           "type": "collection",
           "settings": {
-            "title": "PROMOCIONES",
+            "title": "Limpieza facial",
             "collection": "limpieza-facial"
           }
         }
@@ -214,7 +251,7 @@
       ],
       "name": "Product tab",
       "settings": {
-        "animation": "fade-up",
+        "animation": "fade",
         "paddingsection": "100px 0px 80px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -247,7 +284,7 @@
         "padding_mobile": 80,
         "bg_box": "#ffffff",
         "opacity_bgbox": 0.6,
-        "bg_overlay": "#000",
+        "bg_overlay": "#000000",
         "opacity_bg_overlay": 0,
         "title": "¿Lista para cuidar tu piel como una profesional?",
         "title_color": "#000000",
@@ -302,7 +339,7 @@
       ],
       "name": "Testimonials",
       "settings": {
-        "animation": "",
+        "animation": "fade-right",
         "paddingsection": "80px 0px 80px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -327,7 +364,7 @@
       ],
       "name": "Blog posts",
       "settings": {
-        "animation": "",
+        "animation": "slide-up",
         "paddingsection": "100px 0px 100px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",
@@ -352,7 +389,7 @@
     }
   },
   "order": [
-    "featured_collections_5_kgkbYM",
+    "grid_banner_6VnLjp",
     "image_icon_text_9NcX4y",
     "brand_carousel_i9JYeg",
     "product_tab_HRrtKk",
