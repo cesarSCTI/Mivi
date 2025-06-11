@@ -580,10 +580,10 @@
             "type": "text",
             "settings": {
               "logofooter": "shopify://shop_images/logo-mivi_medical_blanco.png",
-              "widthlogofooter": 180,
+              "widthlogofooter": 160,
               "title": "",
               "text": "",
-              "width": "25%"
+              "width": "16%"
             }
           },
           "1567410186399": {
@@ -599,7 +599,7 @@
             "type": "menu",
             "settings": {
               "link_list": "pol-ticas",
-              "width": "16%"
+              "width": "25%"
             }
           },
           "newsletter_rTrdTj": {
