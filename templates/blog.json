@@ -43,7 +43,7 @@
       "settings": {
         "animation": "",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingmobile": "0px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
@@ -60,7 +60,7 @@
       "type": "blog-template",
       "custom_css": [
         ".blog__item--3 .content-block__meta .blog__date {color: #fff !important; font-size: 70%; font-weight: 500;}",
-        "@media only screen and (max-width: 768px) {.blog__item--3 .content-block__meta {padding: 5px !important; } .blog__title-link {font-size: 14px !important; margin-bottom: 0px !important;} .blog__item--3 .content-block__meta .blog__date {font-size: 50% !important;}}"
+        "@media only screen and (max-width: 768px) {.blog__item--3 .content-block__meta {padding: 5px !important; } .blog__title-link {font-size: 14px !important; margin-bottom: 0px !important; } .blog__item--3 .content-block__meta .blog__date {font-size: 50% !important; } .mb-5, .my-5 {margin-bottom: 0rem!important;}}"
       ],
       "settings": {
         "blogpage": "blog-1",
@@ -73,13 +73,14 @@
     "newsletter_P7bAfe": {
       "type": "newsletter",
       "custom_css": [
-        ".section-title-1 > span {position: relative; font-size: 45px !important;}"
+        ".section-title-1 > span {position: relative; font-size: 45px !important;}",
+        "@media only screen and (max-width: 768px) {.section-title-1 > span {font-size: 30px !important; }}"
       ],
       "name": "Newsletter",
       "settings": {
         "animation": "",
-        "paddingsection": "50px 0px 0px 100px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingsection": "50px 0px 0px 0px",
+        "paddingmobile": "40px 0px 0px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#ffffff",
@@ -109,7 +110,7 @@
       "settings": {
         "animation": "",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
+        "paddingmobile": "0px 0px 40px 0px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "zindex": "0",
