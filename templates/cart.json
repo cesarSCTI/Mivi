@@ -1,11 +1,91 @@
-
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
-    "sections": {
-      "main": {
-        "type": "cart-template"
+  "sections": {
+    "advanced_content_Kd6HnT": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_zDqpUi": {
+          "type": "html",
+          "settings": {
+            "code": "<br>",
+            "width": "100%",
+            "align": "auto"
+          }
+        }
+      },
+      "block_order": [
+        "html_zDqpUi"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "animation": "",
+        "paddingsection": "50px 0px 0px 0px",
+        "paddingmobile": "40px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#efe6df",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
       }
     },
-    "order": [
-        "main"
-    ]
-  }
+    "advanced_content_KGDBhQ": {
+      "type": "advanced-content",
+      "blocks": {
+        "html_aFQ7iw": {
+          "type": "html",
+          "settings": {
+            "code": "<br>",
+            "width": "100%",
+            "align": "auto"
+          }
+        }
+      },
+      "block_order": [
+        "html_aFQ7iw"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "animation": "",
+        "paddingsection": "50px 0px 0px 0px",
+        "paddingmobile": "40px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "zindex": "0",
+        "bgsection": "#efe6df",
+        "rangebg": 0,
+        "bgbefore": "transparent",
+        "title_top": "",
+        "title": "",
+        "des": "",
+        "setwidth": "container",
+        "padding": true
+      }
+    },
+    "main": {
+      "type": "cart-template",
+      "custom_css": [],
+      "settings": {
+        "cart_notes_enable": true
+      }
+    }
+  },
+  "order": [
+    "advanced_content_Kd6HnT",
+    "main",
+    "advanced_content_KGDBhQ"
+  ]
+}
