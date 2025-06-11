@@ -636,8 +636,7 @@
           "footer_font_weight": "600",
           "footer_spacing": 0,
           "footer_typetext": "capitalize",
-          "payment_info": "img",
-          "imgpayment": "shopify://shop_images/pagos.png"
+          "payment_info": "img"
         }
       },
       "product-template-1": {
