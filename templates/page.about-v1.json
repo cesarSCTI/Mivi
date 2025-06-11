@@ -22,7 +22,7 @@
       "type": "image-content-3",
       "custom_css": [
         "h2 {font-size: 50px !important;}",
-        "@media only screen and (max-width: 768px) {h2 {font-size: 30px !important; } .contentimg-left .imgblock .imgblock-bg {left: 90px; right: auto; top: 70px; } .imgblock {padding-bottom: 35px !important; }}"
+        "@media only screen and (max-width: 768px) {h2 {font-size: 30px !important; } .contentimg-left .imgblock .imgblock-bg {left: 90px; right: auto; top: 70px; } .imgblock {padding-bottom: 45px !important; }}"
       ],
       "name": "Image with text Style 3",
       "settings": {
