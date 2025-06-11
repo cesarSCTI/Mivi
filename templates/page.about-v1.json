@@ -20,15 +20,19 @@
     },
     "image_content_3_FwkGjz": {
       "type": "image-content-3",
+      "custom_css": [
+        "h2 {font-size: 50px !important;}",
+        "@media only screen and (max-width: 768px) {h2 {font-size: 30px !important; } .contentimg-left .imgblock .imgblock-bg {left: 90px; right: auto; top: 70px; } .imgblock {padding-bottom: 35px !important; }}"
+      ],
       "name": "Image with text Style 3",
       "settings": {
-        "animation": "",
-        "paddingsection": "100px 0px 100px 0px",
-        "paddingmobile": "60px 20px 60px 20px",
+        "animation": "fade-up-left",
+        "paddingsection": "100px 0px 80px 0px",
+        "paddingmobile": "20px 10px 30px 10px",
         "marginsection": "0px 0px 0px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
-        "des": "<img height=\"170\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<h2 style=\"margin-top:50px;\">Estética avanzada y formulaciones especializadas para el bienestar de tu piel.</h2>",
+        "des": "<img height=\"150\" src=\"https://cdn.shopify.com/s/files/1/0602/8237/2198/files/logo_mivi_medical_skin_care.png?v=1748915433\">\n<h2 style=\"margin-top:50px;\">Estética avanzada y formulaciones especializadas para el bienestar de tu piel.</h2>",
         "image": "shopify://shop_images/img-quien_es_mivi.png",
         "linkimg": "",
         "bgimage": "#ead8ca",
@@ -76,7 +80,7 @@
       ],
       "settings": {
         "enablesection": true,
-        "animation": "fade-up",
+        "animation": "slide-right",
         "paddingsection": "0px 0px 0px 0px",
         "paddingmobile": "60px 20px 60px 20px",
         "marginsection": "0px 0px 0px 0px",
@@ -125,7 +129,7 @@
       ],
       "settings": {
         "enablesection": true,
-        "animation": "fade-up",
+        "animation": "slide-left",
         "paddingsection": "100px 0px 100px 0px",
         "paddingmobile": "60px 0px 60px 0px",
         "marginsection": "0px 0px 0px 0px",

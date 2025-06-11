@@ -18,9 +18,9 @@
             "image": "shopify://shop_images/bg-mivi_medical_general.png",
             "width": "12",
             "description": "<h2 class=\"mb-2\">Contacto</h2>",
-            "bg_color": "#efe6df",
+            "bg_color": "#ead8ca",
             "colordef": "#000000",
-            "bg_colorhover": "#c99a5c",
+            "bg_colorhover": "#ead8ca",
             "colorhover": "#000000",
             "opacity_bg": 0,
             "max-width": 460,
@@ -37,14 +37,14 @@
         "banner_FAhWtB"
       ],
       "custom_css": [
-        "h2{background: #efe6dfab; padding: 10px 20px;}"
+        "h2 {background: #efe6dfab; padding: 10px 10px;}"
       ],
       "name": "Grid banner",
       "settings": {
-        "animation": "",
+        "animation": "fade",
         "paddingsection": "0px 0px 0px 0px",
-        "paddingmobile": "60px 0px 60px 0px",
-        "marginsection": "0px 0px 0px 0px",
+        "paddingmobile": "0px 0px 30px 0px",
+        "marginsection": "0px 0px 50px 0px",
         "marginmobile": "0px 0px 0px 0px",
         "bgsection": "#efe6df",
         "bgstyle": false,

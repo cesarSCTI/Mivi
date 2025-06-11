@@ -293,7 +293,7 @@
     "text_transform_btn": "inherit",
     "font_weight_button": "500",
     "base_size_button": 15,
-    "enable_compare": true,
+    "enable_compare": false,
     "enable_wishlsit": false,
     "page_wishlist": "wishlist",
     "cookie_enable": true,
