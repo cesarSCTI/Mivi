@@ -377,7 +377,7 @@
         "title": "Nuestro Blog",
         "des": "Cada piel tiene su propia historia",
         "blog": "noticias",
-        "setwidth": "container",
+        "setwidth": "container-fluid",
         "arrows": false,
         "draggable": true,
         "dots": false,
