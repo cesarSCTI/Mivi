@@ -69,7 +69,7 @@
       "addtocart": "Agregar al carrito",
       "sku": "SKU",
       "type": "Categoría",
-      "vendor": "Vendor"
+      "vendor": "Marca"
     },
     "drawers": {
       "menu": "Menú",
@@ -320,7 +320,7 @@
       "will_not_ship_until": "Será enviado después {{ date }}",
       "will_be_in_stock_after": "Estará disponible después {{ date }}",
       "sale_price": "Precio de oferta",
-      "vendor": "Vendor",
+      "vendor": "Marca",
       "type": "Categoría",
       "regular_price": "Precio habitual",
       "on_sale": "En oferta",
