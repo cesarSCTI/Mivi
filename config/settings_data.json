@@ -3551,7 +3551,14 @@
       "1593875730388",
       "1590595440196",
       "21a09ada-4816-42e0-82c7-663466d58716"
-    ]
+    ],
+    "blocks": {
+      "14900259222037449619": {
+        "type": "shopify://apps/chaty-whatsapp-chat-buttons/blocks/chaty/0aaf5812-760f-4dd7-be9b-cca564d8200b",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Classic": {
