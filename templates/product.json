@@ -78,6 +78,9 @@
         "image_text_pQMjLP",
         "single_image_mhRKC7"
       ],
+      "custom_css": [
+        ".product-form__quantity-submit.pt-4 {border-bottom: 1px solid #000; padding-bottom: 20px; margin-bottom: 20px;}"
+      ],
       "settings": {
         "setwidth": "container-fluid",
         "productpage": "product-1",
