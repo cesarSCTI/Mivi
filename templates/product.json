@@ -12,6 +12,41 @@
     "main": {
       "type": "product-template-1",
       "blocks": {
+        "metacampo_6efiyz": {
+          "type": "metacampo",
+          "settings": {
+            "metacampo_title": "Efecto del cuidado de la piel",
+            "metacampo_text": "{{ product.metafields.custom.efecto_del_cuidado_de_la_piel.value }}"
+          }
+        },
+        "metacampo_7EPFbM": {
+          "type": "metacampo",
+          "settings": {
+            "metacampo_title": "Adecuado para tipo de piel",
+            "metacampo_text": "{{ product.metafields.custom.adecuado_para_tipo_de_piel.value }}"
+          }
+        },
+        "metacampo_fF8jjW": {
+          "type": "metacampo",
+          "settings": {
+            "metacampo_title": "Forma del producto",
+            "metacampo_text": "{{ product.metafields.custom.forma_del_producto.value }}"
+          }
+        },
+        "metacampo_wwKhpk": {
+          "type": "metacampo",
+          "settings": {
+            "metacampo_title": "Tipo de embalaje",
+            "metacampo_text": "{{ product.metafields.custom.tipo_de_embalaje.value }}"
+          }
+        },
+        "metacampo_zgz4KX": {
+          "type": "metacampo",
+          "settings": {
+            "metacampo_title": "Función cosmética",
+            "metacampo_text": "{{ product.metafields.custom.funcion_cosmetica.value }}"
+          }
+        },
         "image_text_GwkPan": {
           "type": "image_text",
           "settings": {
@@ -34,6 +69,11 @@
         }
       },
       "block_order": [
+        "metacampo_6efiyz",
+        "metacampo_7EPFbM",
+        "metacampo_fF8jjW",
+        "metacampo_wwKhpk",
+        "metacampo_zgz4KX",
         "image_text_GwkPan",
         "image_text_pQMjLP",
         "single_image_mhRKC7"
