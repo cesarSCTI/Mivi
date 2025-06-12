@@ -4748,8 +4748,7 @@
       ".main-content {padding: 0px;}",
       ".pagination.js-pagination {padding-bottom: 40px;}",
       ".header-bottom__right .header--acount {font-size: 15px !important;}",
-      ".drawer__nav-link--top-level {font-weight: 400 !important; font-size: 15px !important; font-family: Avenir !important; text-transform: capitalize !important;}",
-      "p b{font-family: 'Avenir-black';}"
+      ".drawer__nav-link--top-level {font-weight: 400 !important; font-size: 15px !important; font-family: Avenir !important; text-transform: capitalize !important;}"
     ]
   }
 }
