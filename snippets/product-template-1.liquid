@@ -120,11 +120,34 @@
               <li>{%- include 'productStock' -%}</li>
               {%- endif -%}
             </ul>
-            
-          
-          
           </div>
-          
+
+          <div class="miniDescription">
+          {{ product.description | truncatewords: 30 }}
+          </div>
+          <style>
+            .bloque-metacampo{
+              display: flex;
+              gap:10px;
+              align-items: center;
+            }
+            .miniDescription{
+              margin-bottom: 20px;
+            }
+          </style>
+          {% for block in section.blocks %}
+             {% case block.type %}
+              
+                {% when 'metacampo' %}
+                  {% if block.settings.metacampo_text != blank %}
+                    <div class="bloque-metacampo">
+                      <b>{{ block.settings.metacampo_title }}</b>
+                      <span>{{ block.settings.metacampo_text }}</span>
+                    </div>
+                  {% endif %}
+              {% endcase %}
+          {% endfor %}
+
           {% if product.metafields.info.affiliate_link != blank %}{% comment %}AFFILIATE PRODUCT{% endcomment %}
             <a href="{{product.metafields.info.affiliate_link}}" class="my-3 btn btn-theme btn--full product-form__cart-submit {% if section.settings.enable_payment_button %}product-form__cart-submit--outline{% endif %}">
               {{product.metafields.info.affiliate_button}}
