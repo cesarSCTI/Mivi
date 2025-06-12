@@ -11,6 +11,33 @@
   "sections": {
     "main": {
       "type": "product-template-1",
+      "blocks": {
+        "image_text_GwkPan": {
+          "type": "image_text",
+          "settings": {
+            "text": "Envíos a toda la República Mexicana",
+            "image": "shopify://shop_images/icono-envios_a_toda_la_republica.png"
+          }
+        },
+        "image_text_pQMjLP": {
+          "type": "image_text",
+          "settings": {
+            "text": "Garantizamos la seguridad de las transacciones y pagos con nuestros clientes.",
+            "image": "shopify://shop_images/icono-garantizamos_pagos.png"
+          }
+        },
+        "single_image_mhRKC7": {
+          "type": "single_image",
+          "settings": {
+            "single_image": "shopify://shop_images/pagos.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_text_GwkPan",
+        "image_text_pQMjLP",
+        "single_image_mhRKC7"
+      ],
       "settings": {
         "setwidth": "container-fluid",
         "productpage": "product-1",
