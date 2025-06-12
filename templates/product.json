@@ -83,7 +83,8 @@
         ".gr-btnjs.py-4.mt-4.border-top {display: none;}",
         ".progress.js-free-shipping {display: none;}",
         "b {font-family: \"Avenir-black\";}",
-        "input#Quantity {background: transparent;}"
+        "input#Quantity {background: transparent;}",
+        ".product-single__price-container li span {color: #797979; font-size: xx-large;}"
       ],
       "settings": {
         "setwidth": "container-fluid",
