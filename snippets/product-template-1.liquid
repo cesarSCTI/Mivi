@@ -210,7 +210,39 @@
                 {% if current_variant.available == false %}<style>.shopify-payment-button{display:none}</style>{% endif %}
                 </div>
               {% endif %}
-              </div>
+            </div>
+            <!--------custom image text-------->
+            <style>
+              .bloque-image-text{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding-top:10px;
+              }
+              .centerImg{
+                padding:10px 0px;
+              }
+            </style>
+            {% for block in section.blocks %}
+             {% case block.type %}
+              
+                {% when 'image_text' %}
+                  {% if block.settings.text != blank %}
+                    <div class="bloque-image-text">
+                      {{ block.settings.image | image_url: height: 20 | image_tag: class: 'lazyload img-fluid' }}
+                      <span>{{ block.settings.text }}</span>
+                    </div>
+                  {% endif %}
+                
+                {% when 'single_image' %}
+                  {% if block.settings.single_image != blank %}
+                    {{ block.settings.single_image |image_url: height: 30 | image_tag: class: 'lazyload img-fluid centerImg' }}
+                  {% endif %}
+
+              {% endcase %}
+            {% endfor %}
+
+
             {%- if section.settings.waitlist -%}
             <div class="js-contact-soldout {% if current_variant.available %}hide{% endif %}">
               <span class="btn btn-waitlist btn-theme" data-toggle="modal" data-target="#jsSoldout" title="{{ 'products.product.soldout_messenger' | t }}">{{'products.product.waitlist' | t}}</span>
