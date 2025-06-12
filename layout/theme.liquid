@@ -26,6 +26,15 @@
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     {{ content_for_header }}
+    <style>
+      @font-face {
+        font-family: 'Avenir';
+        src: url({{ 'AvenirLTStd-Medium.otf' | file_url }}) format('otf'),
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
   </head>
   <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} body-theme {% if settings.productpage == 'product-2' or settings.productpage == 'product-6' or settings.productpage == 'product-7' %} product-hide-breadcrumb {% endif %}" >
     {% assign lazy = false %}
