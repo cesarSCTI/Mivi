@@ -29,12 +29,13 @@
         "metacampo_fF8jjW": {
           "type": "metacampo",
           "settings": {
-            "metacampo_title": "Forma del producto:",
+            "metacampo_title": "Forma del producto (textura):",
             "metacampo_text": "{{ product.metafields.custom.forma_del_producto.value }}"
           }
         },
         "metacampo_wwKhpk": {
           "type": "metacampo",
+          "disabled": true,
           "settings": {
             "metacampo_title": "Tipo de embalaje:",
             "metacampo_text": "{{ product.metafields.custom.tipo_de_embalaje.value }}"
@@ -173,7 +174,6 @@
         "banner_TmGQ7i",
         "banner_VMwKnW"
       ],
-      "name": "Grid banner Text",
       "settings": {
         "animation": "",
         "paddingsection": "80px 0px 50px 0px",
@@ -218,7 +218,6 @@
       "block_order": [
         "html_pUkHa7"
       ],
-      "name": "Custom HTML",
       "settings": {
         "animation": "",
         "paddingsection": "0px 0px 0px 0px",
