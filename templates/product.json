@@ -84,7 +84,8 @@
         ".progress.js-free-shipping {display: none;}",
         "b {font-family: \"Avenir-black\";}",
         "input#Quantity {background: transparent;}",
-        ".product-single__price-container li span {color: #797979; font-size: xx-large;}"
+        ".product-single__price-container li span {color: #797979; font-size: xx-large;}",
+        ".review {display: none;}"
       ],
       "settings": {
         "setwidth": "container-fluid",
