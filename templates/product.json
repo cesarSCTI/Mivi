@@ -85,7 +85,8 @@
         "b {font-family: \"Avenir-black\";}",
         "input#Quantity {background: transparent;}",
         ".product-single__price-container li span {color: #797979; font-size: x-large;}",
-        ".review {display: none;}"
+        ".review {display: none;}",
+        "h1.product-single__title {margin: inherit; font-size: xxx-large;}"
       ],
       "settings": {
         "setwidth": "container-fluid",
