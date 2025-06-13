@@ -120,13 +120,30 @@
         "cart_cl": "#ffffff"
       }
     },
+    "rich_text_DCEFyE": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "animation": "",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "0px 0px 0px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "-50px 0px 0px 0px",
+        "bgsection": "#efe6df",
+        "title_top": "",
+        "title": "Lo que nuestros clientes opinan",
+        "des": "",
+        "setwidth": "container",
+        "text": ""
+      }
+    },
     "1749838880c59915aa": {
       "type": "apps",
       "blocks": {
         "air_product_reviews_app_block_review_list_JD3Akm": {
           "type": "shopify://apps/air-product-reviews/blocks/app-block-review-list/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
-            "air_blockreviews_summaryHeading": "Lo que nuestros clientes opinan",
+            "air_blockreviews_summaryHeading": "",
             "air_blockreviews_layout": "grid",
             "air_blockreviews_singleStarColor": "#f6e520",
             "air_blockreviews_primaryColor": "#000000"
@@ -203,7 +220,7 @@
         "banner_VMwKnW"
       ],
       "settings": {
-        "animation": "",
+        "animation": "fade-up-left",
         "paddingsection": "80px 0px 50px 0px",
         "paddingmobile": "60px 0px 20px 0px",
         "marginsection": "50px 0px 0px 0px",
@@ -219,7 +236,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "animation": "fade-up",
+        "animation": "slide-up",
         "setwidth": "container",
         "heading": "Productos Relacionados",
         "heading_size": "h3",
@@ -266,6 +283,7 @@
   },
   "order": [
     "main",
+    "rich_text_DCEFyE",
     "1749838880c59915aa",
     "grid_banner_2_HTYH6G",
     "product-recommendations",
