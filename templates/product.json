@@ -133,13 +133,16 @@
             "air_allReviewsBlock_bgColor": "#ffffff",
             "air_allReviewsBlock_onlyMedia": false,
             "air_allReviewsBlock_onlyPositive": true,
-            "air_allReviewsBlock_hideProductThumbnails": false,
+            "air_allReviewsBlock_hideProductThumbnails": true,
             "air_allReviewsBlock_selectedProduct": []
           }
         }
       },
       "block_order": [
         "air_product_reviews_app_block_all_review_qCijwz"
+      ],
+      "custom_css": [
+        ".AirReviews-Blocks {padding: 40px !important; margin: -80px 0px 0px !important;}"
       ],
       "settings": {}
     },
