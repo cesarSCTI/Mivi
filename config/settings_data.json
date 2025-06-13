@@ -296,7 +296,7 @@
     "enable_compare": false,
     "enable_wishlsit": false,
     "page_wishlist": "wishlist",
-    "cookie_enable": true,
+    "cookie_enable": false,
     "cookie_message": "Este sitio web utiliza cookies para garantizar que obtenga la mejor experiencia en nuestro sitio web.",
     "cookie_url": "shopify://policies/privacy-policy",
     "cookie_url_text": "Más información",
