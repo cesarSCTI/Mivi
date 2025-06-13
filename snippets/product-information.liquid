@@ -5,7 +5,7 @@
     <a class="nav-item nav-link active" href="#gtab1" data-toggle="tab" role="tab" aria-selected="true">{{section.settings.gtab_des | default:'Description'}}</a>
     {% endcomment %}
     {% if product.metafields.info.tab1 != blank %}
-    <a class="nav-item nav-link active" href="#stab1" data-toggle="tab" role="tab" aria-selected="true">{{section.settings.stab_title1}}</a>
+    <a class="nav-item nav-link " href="#stab1" data-toggle="tab" role="tab" aria-selected="true">{{section.settings.stab_title1}}</a>
     {% endif %}
     {% if product.metafields.info.tab2 != blank %}
     <a class="nav-item nav-link" href="#stab2" data-toggle="tab" role="tab" aria-selected="false">{{section.settings.stab_title2}}</a>
@@ -17,7 +17,7 @@
     <a class="nav-item nav-link" href="#stab4" data-toggle="tab" role="tab" aria-selected="false">{{section.settings.stab_title4}}</a>
     {% endif %}
     {% if section.settings.gtab_review_enable %}
-    <a class="nav-item nav-link" href="#gtab2" data-toggle="tab" role="tab" aria-selected="false">
+    <a class="nav-item nav-link active" href="#gtab2" data-toggle="tab" role="tab" aria-selected="true">
       {{section.settings.gtab_review}}
       <div class="review">
         <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
@@ -27,7 +27,7 @@
   </div>
   <div class="tab-content">
     {% comment %}
-      
+      s
     <div class="tab-pane fade show active" id="gtab1" role="tabpanel" >
       {{product.description}}
     </div>
