@@ -225,10 +225,26 @@
         "setwidth": "container",
         "padding": true
       }
+    },
+    "1749838331e14142f6": {
+      "type": "apps",
+      "blocks": {
+        "trustshop_reviews_all_reviews_H49AdX": {
+          "type": "shopify://apps/trustshop-reviews/blocks/all-reviews/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
+          "settings": {
+            "wrapper_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustshop_reviews_all_reviews_H49AdX"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
+    "1749838331e14142f6",
     "grid_banner_2_HTYH6G",
     "product-recommendations",
     "advanced_content_JX8tt3"
