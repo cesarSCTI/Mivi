@@ -141,9 +141,9 @@
       "view_all": "Ver todo",
       "all_of_collection": "Todo",
       "no_matches": "Lo sentimos, no hay productos que coincidan con su búsqueda.",
-      "grid_view": "Grid view",
-      "list_view": "List view",
-      "filter": "Filter",
+      "grid_view": "Vista en cuadricula",
+      "list_view": "Vista en lista",
+      "filter": "Filtro",
       "link_title": "Navegue por nuestra colección {{ title }}"
     },
     "sorting": {
