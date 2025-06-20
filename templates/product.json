@@ -180,7 +180,7 @@
         "banner_4fmtak": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/img-tratamientos_en_consultorio.png",
+            "image": "shopify://shop_images/img-tratamientos_en_consultorio-MIVI-min.png",
             "width": "4",
             "description": "<h3 class=\"mb-2\">Tratamientos en consultorio</h3><p>Protocolos especializados y atención personalizada que brindan confort, bienestar y resultados visibles desde la primera sesión.</p>",
             "button_text": "",
@@ -192,7 +192,7 @@
         "banner_TmGQ7i": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/img-formulaciones_avanzadas.png",
+            "image": "shopify://shop_images/img-formulaciones_avanzadas2-min.png",
             "width": "4",
             "description": "<h3 class=\"mb-2\">Formulaciones avanzadas</h3><p>Productos respaldados por años de investigación dermocosmética, pensados para apoyar la salud y apariencia de la piel con eficacia comprobada.</p>",
             "button_text": "",
