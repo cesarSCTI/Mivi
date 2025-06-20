@@ -146,10 +146,52 @@
       "settings": {
         "image_bg": "shopify://shop_images/bg-porque_elegir_mivi.png",
         "bg_color": "#ffffff",
-        "image": "shopify://shop_images/IMG_0646.jpg",
+        "image": "shopify://shop_images/img-porque_elegir_mivi_medica_skin_care-1-min.png",
         "height_image": 1000,
         "heading": "¿Por qué elegir Mivi Medical Skincare?",
         "typeHeader": "h2"
+      }
+    },
+    "image_content_2_87cJKK": {
+      "type": "image-content-2",
+      "blocks": {
+        "image_block_fqANCw": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/img-MIVI2-min.png",
+            "linkimg": "",
+            "title": "",
+            "text": "",
+            "show_reverse": false
+          }
+        },
+        "image_block_MbNGDi": {
+          "type": "image_block",
+          "settings": {
+            "image": "shopify://shop_images/img-MIVI1-min.png",
+            "linkimg": "",
+            "title": "",
+            "text": "",
+            "show_reverse": false
+          }
+        }
+      },
+      "block_order": [
+        "image_block_fqANCw",
+        "image_block_MbNGDi"
+      ],
+      "name": "Image with text Style 2",
+      "settings": {
+        "animation": "fade-down-right",
+        "paddingsection": "0px 0px 0px 0px",
+        "paddingmobile": "60px 0px 60px 0px",
+        "marginsection": "0px 0px 0px 0px",
+        "marginmobile": "0px 0px 0px 0px",
+        "bgsection": "#fefefe",
+        "setwidth": "container",
+        "align_center": true,
+        "setbig": "right",
+        "width": "6"
       }
     },
     "brand_carousel_i9JYeg": {
@@ -391,6 +433,7 @@
   "order": [
     "grid_banner_6VnLjp",
     "image_icon_text_9NcX4y",
+    "image_content_2_87cJKK",
     "brand_carousel_i9JYeg",
     "product_tab_HRrtKk",
     "backgroundvideo_BnYCjN",
