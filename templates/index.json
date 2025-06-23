@@ -261,6 +261,13 @@
     "product_tab_HRrtKk": {
       "type": "product-tab",
       "blocks": {
+        "collection_UrKED8": {
+          "type": "collection",
+          "settings": {
+            "title": "Limpieza facial",
+            "collection": "limpieza-facial"
+          }
+        },
         "collection_mqC86D": {
           "type": "collection",
           "settings": {
@@ -271,22 +278,15 @@
         "collection_FBa469": {
           "type": "collection",
           "settings": {
-            "title": "Dermatológico",
-            "collection": "dermatologico"
-          }
-        },
-        "collection_UrKED8": {
-          "type": "collection",
-          "settings": {
-            "title": "Limpieza facial",
-            "collection": "limpieza-facial"
+            "title": "Tratamientos",
+            "collection": "tratamientos"
           }
         }
       },
       "block_order": [
+        "collection_UrKED8",
         "collection_mqC86D",
-        "collection_FBa469",
-        "collection_UrKED8"
+        "collection_FBa469"
       ],
       "custom_css": [
         ".nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active {background-color: #efe6df !important;}"
