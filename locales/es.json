@@ -62,7 +62,7 @@
       },
       "products": "Productos",
       "pages_and_articles": "Páginas y artículos",
-      "titleplace": ""
+      "titleplace": "¿QUÉ ESTÁS BUSCANDO?"
     },
     "quickview": {
       "view_full": "Ir al producto",
@@ -359,19 +359,19 @@
       "stock_unavailable": "El artículo no se pudo agregar al carrito porque no hay suficientes unidades disponibles."
     },
     "facets": {
-      "apply": "",
-      "clear": "",
-      "clear_all": "",
-      "from": "",
-      "filter_and_sort": "",
-      "filter_by_label": "",
-      "filter_button": "",
+      "apply": "Aplicar",
+      "clear": "Limpiar",
+      "clear_all": "Limpiar todo",
+      "from": "Desde",
+      "filter_and_sort": "Filtrar y ordenar",
+      "filter_by_label": "Filtrar:",
+      "filter_button": "Filtrar",
       "filters_selected": {
         "one": "",
         "other": ""
       },
-      "t_price": "",
-      "max_price": "",
+      "t_price": "Precio:",
+      "max_price": " El precio más alto es",
       "product_count": {
         "one": "",
         "other": ""
@@ -380,11 +380,11 @@
         "one": "",
         "other": ""
       },
-      "reset": "",
-      "sort_button": "",
-      "sort_by_label": "",
-      "to": "",
-      "clear_filter": ""
+      "reset": "Reiniciar",
+      "sort_button": "Clasificar",
+      "sort_by_label": "Clasificar por:",
+      "to": "A",
+      "clear_filter": "Limpiar filtrado"
     }
   },
   "gift_cards": {
@@ -421,8 +421,8 @@
       "navigation_instructions": "Use left/right arrows to navigate the slideshow or swipe left/right if using a mobile device"
     },
     "collection_template": {
-      "empty": "",
-      "title": "",
+      "empty": "No se encontraron productos",
+      "title": "Categoría",
       "use_fewer_filters_html": ""
     }
   },
