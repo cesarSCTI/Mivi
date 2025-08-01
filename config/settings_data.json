@@ -2067,12 +2067,12 @@
           "enable_white": false,
           "enable_sticky": true,
           "enable_dropdownfull": true,
-          "enabletopbar": false,
+          "enabletopbar": true,
           "enable_login": false,
           "enable_social": true,
           "enablemoney": false,
-          "topbartext": "",
-          "topbarbg": "#292929",
+          "topbartext": "Mivi Medical Skincare",
+          "topbarbg": "#000000",
           "textcolor-top": "#ffffff",
           "background": "#ffffff",
           "textcolor": "#000000",
@@ -2083,7 +2083,7 @@
           "menudroptexttitle": "#000000",
           "menudroptext": "#000000",
           "menudropbg": "#ffffff",
-          "text_topbar": "Store",
+          "text_topbar": "Instagram",
           "enablesidebar": false,
           "timeopen": "<p class=\"pb-4\">Time to shop! Find your favorite product, check the \nlatest collection & don’t miss out the best siscounts \nwith Letta!\n</p>",
           "enable_insta": false,
@@ -2100,7 +2100,7 @@
           "link_list_head": "customer-account-main-menu",
           "email_sidebar": false,
           "email_sidebar_title": "Newsletter",
-          "socialshare": false
+          "socialshare": true
         }
       },
       "footer-4": {
