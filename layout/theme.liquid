@@ -27,6 +27,14 @@
     {%- endif -%}
     {{ content_for_header }}
     <style>
+      @media only screen and (max-width:568px){
+        #topbar .col.col-left.justify-content-center.justify-content-sm-start {
+            display: none;
+        }
+        #topbar .col-8.col-right.text-right.d-none.d-md-flex{
+          display:block !important;
+        }
+      }
       @font-face {
         font-family: 'Avenir';
         src: url({{ 'AvenirLTStd-Medium.woff2' | file_url }}) format('woff2'),
